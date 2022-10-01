@@ -44,8 +44,10 @@
 #include "mcc_generated_files/mcc.h"
 #include "mcc_generated_files/examples/i2c2_master_example.h"
 
-uint8_t i2c_send_data[12] = {0x00, 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A};
-uint8_t i2c_read_data[10];
+uint8_t i2c_send_data[6] = {0x00, 0x00, 0x0A, 0x0B, 0x0C, 0x0D};
+uint8_t i2c_read_data[4];
+uint8_t i2c_memory_index[2];
+uint8_t i2c_memory_config[2];
 #define EEPROM_DEVICE_ADDRESS 0x50      //7 bit address
                               //0xA0      //8 bit address
 /*
@@ -76,15 +78,24 @@ void main(void)
 
     while (1)
     {
-        I2C2_WriteNBytes(EEPROM_DEVICE_ADDRESS, i2c_send_data, 5/*sizeof(i2c_send_data)*/);
-        __delay_ms(10);
+        I2C2_WriteNBytes(EEPROM_DEVICE_ADDRESS, i2c_send_data, sizeof(i2c_send_data));
+        __delay_ms(1);
+        I2C2_WriteNBytes(EEPROM_DEVICE_ADDRESS, i2c_send_data, 2);
+        I2C2_ReadNBytes(EEPROM_DEVICE_ADDRESS, i2c_read_data, sizeof(i2c_read_data));
+        __delay_ms(1);
         
-//        I2C2_WriteNBytes(EEPROM_DEVICE_ADDRESS, i2c_send_data, 2);
-//        I2C2_ReadNBytes(EEPROM_DEVICE_ADDRESS, i2c_read_data, 8/*sizeof(i2c_read_data)*/);
-//        __delay_ms(10);
+        /* 
+		 * Try to read from EEPROM Configuration WPR and HAR registers. 
+		 */
+//		i2c_memory_index[0] = 0x80;
+//		i2c_memory_index[1] = 0x00;
+//        I2C2_WriteNBytes(EEPROM_DEVICE_ADDRESS, i2c_memory_index, 2);
+//        I2C2_ReadNBytes(EEPROM_DEVICE_ADDRESS, i2c_memory_config, 2);
+//        __delay_ms(1);
+        
         LED_GreenStatus_SetLow();
-//        __delay_ms(500);
-        if(i2c_read_data[0] == 0x01)
+//        if(i2c_memory_config[0] == 0x04)
+        if(i2c_read_data[0] == 0x04)
             LED_RedStatus_SetLow();
         else 
             LED_RedStatus_SetHigh();
