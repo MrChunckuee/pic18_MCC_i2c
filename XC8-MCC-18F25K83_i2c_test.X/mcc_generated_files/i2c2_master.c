@@ -184,8 +184,8 @@ void I2C2_Initialize()
 {
     //EN disabled; RSEN disabled; S waits for BFRE=1 to start; CSTR Enable clocking; MODE 7-bit address; 
     I2C2CON0 = 0x24;
-    //ACKCNT Acknowledge; ACKDT Acknowledge; ACKSTAT ACK received; ACKT 0; RXO 0; TXU 0; CSD Clock Stretching disabled; 
-    I2C2CON1 = 0x01;
+    //ACKCNT Not Acknowledge; ACKDT Acknowledge; ACKSTAT ACK received; ACKT 0; RXO 0; TXU 0; CSD Clock Stretching enabled; 
+    I2C2CON1 = 0x80;
     //ACNT disabled; GCEN disabled; FME disabled; ABD disabled; SDAHT 300 ns hold time; BFRET 8 I2C Clock pulses; 
     I2C2CON2 = 0x10;
     //CLK MFINTOSC; 
@@ -389,14 +389,14 @@ static i2c2_fsm_states_t I2C2_DO_SEND_ADR_READ(void)
     {
         I2C2_DO_RX_EMPTY();
     }
-    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address /*<< 1*/ | 1));
+    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address << 1 | 1));
     return I2C2_RX;
 }
 
 static i2c2_fsm_states_t I2C2_DO_SEND_ADR_WRITE(void)
 {
     I2C2_Status.addressNackCheck = 2;
-    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address /*<< 1*/));
+    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address << 1));
     return I2C2_TX;
 }
 

@@ -46,7 +46,8 @@
 
 uint8_t i2c_send_data[12] = {0x00, 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A};
 uint8_t i2c_read_data[10];
-#define EEPROM_DEVICE_ADDRESS 0xA0
+#define EEPROM_DEVICE_ADDRESS 0x50      //7 bit address
+                              //0xA0      //8 bit address
 /*
                          Main application
  */

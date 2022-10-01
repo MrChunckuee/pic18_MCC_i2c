@@ -1,20 +1,20 @@
-_I2C2_DO_SEND_RESTART_READ 1302 0 CODE 0
+_I2C2_DO_SEND_RESTART_READ 1304 0 CODE 0
 __size_of_I2C2_Poller 0 0 ABS 0
 rd1RegCompleteHandler@ptr 38 0 COMRAM 1
 rd2RegCompleteHandler@ptr 38 0 COMRAM 1
 wr1RegCompleteHandler@ptr 38 0 COMRAM 1
 wr2RegCompleteHandler@ptr 38 0 COMRAM 1
 __size_of_I2C2_MasterOpen 0 0 ABS 0
-__end_of_I2C2_MasterResetBus 1342 0 CODE 0
+__end_of_I2C2_MasterResetBus 1344 0 CODE 0
 __end_of_I2C2_MasterIsCountFlagSet 12A8 0 CODE 0
 I2C2_WriteNBytes@len 44 0 COMRAM 1
-_I2C2_MasterDisableRestart 138E 0 CODE 0
+_I2C2_MasterDisableRestart 1390 0 CODE 0
 __S0 8000 0 ABS 0
 __S1 55 0 ABS 0
 __S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
-_I2C2_MasterGetCounter 136A 0 CODE 0
+_I2C2_MasterGetCounter 136C 0 CODE 0
 __size_of_I2C2_Close 0 0 ABS 0
 _I2C2_MasterIsNack 123A 0 CODE 0
 __size_of_I2C2_MasterSendTxData 0 0 ABS 0
@@ -26,7 +26,7 @@ _PMD4 39C4 0 ABS 0
 _PMD5 39C5 0 ABS 0
 _PMD6 39C6 0 ABS 0
 _PMD7 39C7 0 ABS 0
-_I2C2_MasterClose 130E 0 CODE 0
+_I2C2_MasterClose 1310 0 CODE 0
 __end_of_I2C2_DO_SEND_ADR_READ 10C6 0 CODE 0
 __size_of_I2C2_DO_SEND_RESTART_WRITE 0 0 ABS 0
 _LATA 3FBA 0 ABS 0
@@ -41,8 +41,8 @@ __size_of_wr1RegCompleteHandler 0 0 ABS 0
 rdBlkRegCompleteHandler@ptr 38 0 COMRAM 1
 __end_of_PIN_MANAGER_Initialize DB2 0 CODE 0
 __size_of_I2C2_MasterStop 0 0 ABS 0
-_I2C2_MasterSetCounter 132E 0 CODE 0
-__end_of_I2C2_DO_RX_NACK_STOP 12F6 0 CODE 0
+_I2C2_MasterSetCounter 1330 0 CODE 0
+__end_of_I2C2_DO_RX_NACK_STOP 12F8 0 CODE 0
 _I2C2_DO_SEND_ADR_READ 109C 0 CODE 0
 _main CEC 0 CODE 0
 ___sp 0 0 STACK 2
@@ -53,7 +53,7 @@ __size_of_I2C2_DO_TX_ACK 0 0 ABS 0
 _I2C2_SetBuffer 1180 0 CODE 0
 __size_of_I2C2_DO_SEND_ADR_WRITE 0 0 ABS 0
 _I2C2_MasterWaitForEvent E14 0 CODE 0
-__end_of_I2C2_DO_SEND_RESTART 13AA 0 CODE 0
+__end_of_I2C2_DO_SEND_RESTART 13AC 0 CODE 0
 I2C2_DO_RX@retFsmState 3E 0 COMRAM 1
 _TRISA 3FC2 0 ABS 0
 _TRISB 3FC3 0 ABS 0
@@ -69,10 +69,10 @@ __end_of_I2C2_DO_TX_EMPTY C0C 0 CODE 0
 I2C2_DO_TX@retFsmState 3F 0 COMRAM 1
 _i2c_send_data 49 0 COMRAM 1
 __size_of_I2C2_WriteNBytes 0 0 ABS 0
-__end_of_I2C2_DO_SEND_RESTART_READ 130E 0 CODE 0
+__end_of_I2C2_DO_SEND_RESTART_READ 1310 0 CODE 0
 __Hconfig 30000A 0 CONFIG 4
 __Lconfig 0 0 CONFIG 4
-__end_of_I2C2_MasterClearNackFlag 13A0 0 CODE 0
+__end_of_I2C2_MasterClearNackFlag 13A2 0 CODE 0
 I2C2_MasterOperation@read 40 0 COMRAM 1
 __end_of_wr1RegCompleteHandler 1018 0 CODE 0
 __size_of_I2C2_MasterIsStopFlagSet 0 0 ABS 0
@@ -81,7 +81,7 @@ I2C2_SetDataCompleteCallback@cb 34 0 COMRAM 1
 __size_of_I2C2_CallbackReturnReset 0 0 ABS 0
 __Hbigram 0 0 ABS 0
 __Lbigram 0 0 ABS 0
-__end_of_I2C2_CallbackReturnStop 13B6 0 CODE 0
+__end_of_I2C2_CallbackReturnStop 13B8 0 CODE 0
 __Hrparam 0 0 COMRAM 1
 __Lrparam 0 0 COMRAM 1
 __size_of_I2C2_MasterClose 0 0 ABS 0
@@ -104,7 +104,7 @@ __end_of_wr2RegCompleteHandler 109C 0 CODE 0
 __size_of_I2C2_DO_BUS_COLLISION 0 0 ABS 0
 __size_of_I2C2_DO_BUS_ERROR 0 0 ABS 0
 _I2C2_MasterIsNackFlagSet 127C 0 CODE 0
-_I2C2_DO_SEND_ADR_WRITE 12BA 0 CODE 0
+_I2C2_DO_SEND_ADR_WRITE 12A8 0 CODE 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 _PIE7bits 3997 0 ABS 0
@@ -155,29 +155,29 @@ _I2C2_DO_TX$861 3C 0 COMRAM 1
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
 __size_of_I2C2_MasterIsRxBufFull 0 0 ABS 0
-_I2C2_DO_RESET 12DA 0 CODE 0
-__end_of_I2C2_DO_IDLE 1324 0 CODE 0
+_I2C2_DO_RESET 12DC 0 CODE 0
+__end_of_I2C2_DO_IDLE 1326 0 CODE 0
 _I2C2_Open A82 0 CODE 0
 __end_of_I2C2_MasterOpen 1180 0 CODE 0
 I2C2_MasterSendTxData@data 2F 0 COMRAM 1
 __size_of_I2C2_SetDataCompleteCallback 0 0 ABS 0
 __size_of_I2C2_MasterIsNack 0 0 ABS 0
-__end_of_I2C2_MasterSendTxData 132E 0 CODE 0
-_I2C2_MasterClearIrq 1362 0 CODE 0
-_I2C2_MasterEnableRestart 1388 0 CODE 0
-__end_of_I2C2_MasterStop 1376 0 CODE 0
+__end_of_I2C2_MasterSendTxData 1330 0 CODE 0
+_I2C2_MasterClearIrq 1364 0 CODE 0
+_I2C2_MasterEnableRestart 138A 0 CODE 0
+__end_of_I2C2_MasterStop 1378 0 CODE 0
 I2C2_Open@address 2F 0 COMRAM 1
-_I2C2_CallbackReturnReset 13AE 0 CODE 0
+_I2C2_CallbackReturnReset 13B0 0 CODE 0
 _I2C2_DO_RX_EMPTY 94C 0 CODE 0
 I2C2_SetAddressNackCallback@cb 34 0 COMRAM 1
 __size_of_I2C2_Open 0 0 ABS 0
-_I2C2_MasterGetRxData 1382 0 CODE 0
+_I2C2_MasterGetRxData 1384 0 CODE 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
 __size_of_I2C2_Initialize 0 0 ABS 0
 isa$std 1 0 ABS 0
 __end_of_I2C2_MasterIsStopFlagSet 127C 0 CODE 0
-__end_of_I2C2_CallbackReturnReset 13B2 0 CODE 0
+__end_of_I2C2_CallbackReturnReset 13B4 0 CODE 0
 stackhi 7FF 0 ABS 0
 _I2C2_DO_BUS_COLLISION C0C 0 CODE 0
 _I2C2_DO_TX_EMPTY B92 0 CODE 0
@@ -186,14 +186,14 @@ __Ltemp 0 0 COMRAM 1
 stacklo 60 0 ABS 0
 __Hrbit 0 0 COMRAM 1
 __Lrbit 0 0 COMRAM 1
-__end_of_I2C2_DO_RESET 12E8 0 CODE 0
-_I2C2_MasterClearNackFlag 139A 0 CODE 0
+__end_of_I2C2_DO_RESET 12EA 0 CODE 0
+_I2C2_MasterClearNackFlag 139C 0 CODE 0
 __Hinit 8000 0 CODE 0
 __Linit 7FFC 0 CODE 0
 __Hrbss 0 0 COMRAM 1
 __end_of_main D50 0 CODE 0
 __Lrbss 0 0 COMRAM 1
-_I2C2_MasterClearStopFlag 1394 0 CODE 0
+_I2C2_MasterClearStopFlag 1396 0 CODE 0
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
 __size_of_I2C2_MasterClearNackFlag 0 0 ABS 0
@@ -209,21 +209,21 @@ _OSCCON3 39DB 0 ABS 0
 __size_of_I2C2_MasterClearIrq 0 0 ABS 0
 __size_of_rd1RegCompleteHandler 0 0 ABS 0
 __size_of_I2C2_MasterSendNack 0 0 ABS 0
-_I2C2_DO_RX_NACK_STOP 12E8 0 CODE 0
-_I2C2_DO_IDLE 131A 0 CODE 0
+_I2C2_DO_RX_NACK_STOP 12EA 0 CODE 0
+_I2C2_DO_IDLE 131C 0 CODE 0
 __end_of_I2C2_Poller 11DC 0 CODE 0
 _I2C2PIE 3D64 0 ABS 0
 __size_of_I2C2_MasterIsCountFlagSet 0 0 ABS 0
 _SLRCONA 3A43 0 ABS 0
-_I2C2_MasterClearCountFlag 13A0 0 CODE 0
-__end_of_I2C2_DO_RX_ACK 135A 0 CODE 0
-__end_of_I2C2_DO_TX_ACK 1362 0 CODE 0
+_I2C2_MasterClearCountFlag 13A2 0 CODE 0
+__end_of_I2C2_DO_RX_ACK 135C 0 CODE 0
+__end_of_I2C2_DO_TX_ACK 1364 0 CODE 0
 _SLRCONB 3A53 0 ABS 0
 _I2C2CLK 3D65 0 ABS 0
 _SLRCONC 3A63 0 ABS 0
 _I2C2RXB 3D54 0 ABS 0
 _I2C2TXB 3D55 0 ABS 0
-_SYSTEM_Initialize 12A8 0 CODE 0
+_SYSTEM_Initialize 12BC 0 CODE 0
 __Hibigdata 0 0 CODE 0
 __Libigdata 0 0 CODE 0
 __size_of_I2C2_MasterSendAck 0 0 ABS 0
@@ -231,7 +231,7 @@ _OSCTUNE 39DE 0 ABS 0
 _I2C2_ClearInterruptFlags ECA 0 CODE 0
 __size_of_I2C2_DO_SEND_ADR_READ 0 0 ABS 0
 __end_of_I2C2_MasterWaitForEvent E70 0 CODE 0
-__end_of_I2C2_MasterSendNack 137C 0 CODE 0
+__end_of_I2C2_MasterSendNack 137E 0 CODE 0
 __Hifardata 0 0 CODE 0
 __Lifardata 0 0 CODE 0
 __Hbank0 0 0 ABS 0
@@ -247,10 +247,10 @@ __Hbank3 0 0 ABS 0
 __Lbank3 0 0 ABS 0
 __Hbank4 0 0 ABS 0
 __Lbank4 0 0 ABS 0
-_I2C2_MasterWrite 1342 0 CODE 0
+_I2C2_MasterWrite 1344 0 CODE 0
 __Hbank5 0 0 ABS 0
 __Lbank5 0 0 ABS 0
-__end_of_I2C2_DO_RX_NACK_RESTART 1352 0 CODE 0
+__end_of_I2C2_DO_RX_NACK_RESTART 1354 0 CODE 0
 __Hpowerup 0 0 CODE 0
 __Lpowerup 0 0 CODE 0
 __Hbank6 0 0 ABS 0
@@ -269,7 +269,7 @@ __ptext0 CEC 0 CODE 0
 __Htext2 0 0 ABS 0
 __size_of_I2C2_MasterDisableIrq 0 0 ABS 0
 __Ltext2 0 0 ABS 0
-__ptext1 12A8 0 CODE 0
+__ptext1 12BC 0 CODE 0
 __Htext3 0 0 ABS 0
 __size_of_I2C2_MasterFsm 0 0 ABS 0
 __Ltext3 0 0 ABS 0
@@ -314,7 +314,7 @@ _I2C2ERRbits 3D60 0 ABS 0
 _I2C2_MasterIsRxBufFull 1250 0 CODE 0
 __size_of_I2C2_DO_RX_EMPTY 0 0 ABS 0
 __size_of_I2C2_DO_TX_EMPTY 0 0 ABS 0
-__end_of_I2C2_MasterClearStopFlag 139A 0 CODE 0
+__end_of_I2C2_MasterClearStopFlag 139C 0 CODE 0
 _I2C2_MasterIsTxBufEmpty 1224 0 CODE 0
 _I2C2_Initialize 113C 0 CODE 0
 __Hidata 0 0 CODE 0
@@ -328,9 +328,9 @@ __Lidloc 0 0 IDLOC 5
 __Hstack 0 0 STACK 2
 __Lstack 0 0 STACK 2
 __Hparam 0 0 COMRAM 1
-_I2C2_DO_SEND_RESTART 13A6 0 CODE 0
+_I2C2_DO_SEND_RESTART 13A8 0 CODE 0
 __Lparam 0 0 COMRAM 1
-_I2C2_MasterSendAck 137C 0 CODE 0
+_I2C2_MasterSendAck 137E 0 CODE 0
 __Hspace_0 8000 0 ABS 0
 __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
@@ -343,7 +343,7 @@ __Lspace_1 0 0 ABS 0
 __size_of_I2C2_SetBuffer 0 0 ABS 0
 __Hsmallconst 828 0 SMALLCONST 0
 __Lsmallconst 800 0 SMALLCONST 0
-_I2C2_MasterSendNack 1376 0 CODE 0
+_I2C2_MasterSendNack 1378 0 CODE 0
 __psmallconst 800 0 SMALLCONST 0
 I2C2_WriteNBytes@address 46 0 COMRAM 1
 __Hspace_2 0 0 ABS 0
@@ -359,7 +359,7 @@ __pcinit FB4 0 CODE 0
 __ramtop 800 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
 __size_of_main 0 0 ABS 0
-__end_of_I2C2_MasterEnableRestart 138E 0 CODE 0
+__end_of_I2C2_MasterEnableRestart 1390 0 CODE 0
 __Hconst 0 0 CONST 0
 __Lconst 0 0 CONST 0
 __Hspace_4 60000A 0 ABS 0
@@ -367,9 +367,9 @@ __Lspace_4 0 0 ABS 0
 I2C2_SetBuffer@bufferSize 31 0 COMRAM 1
 _PIN_MANAGER_Initialize D50 0 CODE 0
 _I2C2_DO_ADDRESS_NACK C80 0 CODE 0
-__end_of_I2C2_MasterGetCounter 1370 0 CODE 0
+__end_of_I2C2_MasterGetCounter 1372 0 CODE 0
 __size_of_I2C2_ClearInterruptFlags 0 0 ABS 0
-__end_of_I2C2_MasterSetCounter 1338 0 CODE 0
+__end_of_I2C2_MasterSetCounter 133A 0 CODE 0
 __size_of_I2C2_MasterIsTxBufEmpty 0 0 ABS 0
 __size_of_rdBlkRegCompleteHandler 0 0 ABS 0
 __size_of_SYSTEM_Initialize 0 0 ABS 0
@@ -379,13 +379,13 @@ _I2C2CON1 3D5E 0 ABS 0
 _I2C2_SetDataCompleteCallback 120C 0 CODE 0
 _I2C2CON2 3D5F 0 ABS 0
 I2C2_CallbackReturnReset@funPtr 38 0 COMRAM 1
-_I2C2_CallbackReturnStop 13B2 0 CODE 0
+_I2C2_CallbackReturnStop 13B4 0 CODE 0
 __end_of_OSCILLATOR_Initialize 11F4 0 CODE 0
-__end_of_SYSTEM_Initialize 12BA 0 CODE 0
+__end_of_SYSTEM_Initialize 12CE 0 CODE 0
 __end_of_I2C2_Open B10 0 CODE 0
-_I2C2_MasterSendTxData 1324 0 CODE 0
-_I2C2_DO_BUS_ERROR 12CC 0 CODE 0
-_I2C2_DO_RX_ACK 1352 0 CODE 0
+_I2C2_MasterSendTxData 1326 0 CODE 0
+_I2C2_DO_BUS_ERROR 12CE 0 CODE 0
+_I2C2_DO_RX_ACK 1354 0 CODE 0
 _I2C2_DO_RX 9EA 0 CODE 0
 _i2c2_fsmStateTable 801 0 SMALLCONST 0
 __Htext10 0 0 ABS 0
@@ -394,12 +394,12 @@ I2C2_SetAddressNackCallback@ptr 36 0 COMRAM 1
 __Htext20 0 0 ABS 0
 __end_of_I2C2_DO_ADDRESS_NACK CEC 0 CODE 0
 __Ltext20 0 0 ABS 0
-__ptext10 1342 0 CODE 0
+__ptext10 1344 0 CODE 0
 __Htext30 0 0 ABS 0
 __Htext11 0 0 ABS 0
 __Ltext30 0 0 ABS 0
 __Ltext11 0 0 ABS 0
-__ptext20 12E8 0 CODE 0
+__ptext20 12EA 0 CODE 0
 __size_of_I2C2_DO_ADDRESS_NACK 0 0 ABS 0
 _I2C2_MasterFsm DB2 0 CODE 0
 __Htext40 0 0 ABS 0
@@ -407,7 +407,7 @@ __Htext21 0 0 ABS 0
 __Ltext40 0 0 ABS 0
 __Ltext21 0 0 ABS 0
 __ptext11 F1C 0 CODE 0
-__ptext30 12BA 0 CODE 0
+__ptext30 12A8 0 CODE 0
 __Htext50 0 0 ABS 0
 __Htext31 0 0 ABS 0
 __Htext12 0 0 ABS 0
@@ -415,9 +415,9 @@ __size_of_I2C2_CallbackReturnStop 0 0 ABS 0
 __Ltext50 0 0 ABS 0
 __Ltext31 0 0 ABS 0
 __Ltext12 0 0 ABS 0
-__ptext21 1352 0 CODE 0
+__ptext21 1354 0 CODE 0
 __ptext40 1250 0 CODE 0
-__end_of_I2C2_MasterDisableRestart 1394 0 CODE 0
+__end_of_I2C2_MasterDisableRestart 1396 0 CODE 0
 __Htext60 0 0 ABS 0
 __Htext41 0 0 ABS 0
 __Htext22 0 0 ABS 0
@@ -435,10 +435,10 @@ __Ltext51 0 0 ABS 0
 __Ltext32 0 0 ABS 0
 __size_of_I2C2_DO_RX 0 0 ABS 0
 __Ltext13 0 0 ABS 0
-_I2C2_DO_TX_ACK 135A 0 CODE 0
+_I2C2_DO_TX_ACK 135C 0 CODE 0
 __size_of_I2C2_DO_TX 0 0 ABS 0
 __ptext22 10F0 0 CODE 0
-__ptext41 1382 0 CODE 0
+__ptext41 1384 0 CODE 0
 __ptext60 1292 0 CODE 0
 _I2C2_DO_TX 828 0 CODE 0
 __Htext61 0 0 ABS 0
@@ -448,7 +448,7 @@ __Ltext61 0 0 ABS 0
 __Ltext42 0 0 ABS 0
 __Ltext23 0 0 ABS 0
 __ptext13 E14 0 CODE 0
-__ptext32 131A 0 CODE 0
+__ptext32 131C 0 CODE 0
 __ptext51 1018 0 CODE 0
 __Htext52 0 0 ABS 0
 __Htext33 0 0 ABS 0
@@ -456,9 +456,9 @@ __Htext14 0 0 ABS 0
 __Ltext52 0 0 ABS 0
 __Ltext33 0 0 ABS 0
 __Ltext14 0 0 ABS 0
-__ptext23 13A6 0 CODE 0
-__ptext42 1324 0 CODE 0
-__ptext61 1394 0 CODE 0
+__ptext23 13A8 0 CODE 0
+__ptext42 1326 0 CODE 0
+__ptext61 1396 0 CODE 0
 __Htext62 0 0 ABS 0
 __Htext43 0 0 ABS 0
 __Htext24 0 0 ABS 0
@@ -467,7 +467,7 @@ I2C2_SetCallback@cb 2F 0 COMRAM 1
 __Ltext43 0 0 ABS 0
 __Ltext24 0 0 ABS 0
 __ptext14 DB2 0 CODE 0
-__ptext33 135A 0 CODE 0
+__ptext33 135C 0 CODE 0
 __ptext52 1044 0 CODE 0
 __Htext53 0 0 ABS 0
 __Htext34 0 0 ABS 0
@@ -475,9 +475,9 @@ __Htext15 0 0 ABS 0
 __Ltext53 0 0 ABS 0
 __Ltext34 0 0 ABS 0
 __Ltext15 0 0 ABS 0
-__ptext24 13AA 0 CODE 0
-__ptext43 132E 0 CODE 0
-__ptext62 139A 0 CODE 0
+__ptext24 13AC 0 CODE 0
+__ptext43 1330 0 CODE 0
+__ptext62 139C 0 CODE 0
 __size_of_PMD_Initialize 0 0 ABS 0
 __Htext63 0 0 ABS 0
 __Htext44 0 0 ABS 0
@@ -485,7 +485,7 @@ __Htext25 0 0 ABS 0
 __Ltext63 0 0 ABS 0
 __Ltext44 0 0 ABS 0
 __Ltext25 0 0 ABS 0
-__ptext15 12CC 0 CODE 0
+__ptext15 12CE 0 CODE 0
 __ptext34 1224 0 CODE 0
 __ptext53 1070 0 CODE 0
 ___inthi_sp 0 0 STACK 2
@@ -495,9 +495,9 @@ __Htext16 0 0 ABS 0
 __Ltext54 0 0 ABS 0
 __Ltext35 0 0 ABS 0
 __Ltext16 0 0 ABS 0
-__ptext25 1302 0 CODE 0
-__ptext44 1388 0 CODE 0
-__ptext63 13A0 0 CODE 0
+__ptext25 1304 0 CODE 0
+__ptext44 138A 0 CODE 0
+__ptext63 13A2 0 CODE 0
 __Htext64 0 0 ABS 0
 __Htext45 0 0 ABS 0
 __Htext26 0 0 ABS 0
@@ -514,9 +514,9 @@ __Ltext55 0 0 ABS 0
 __Ltext36 0 0 ABS 0
 __Ltext17 0 0 ABS 0
 __ptext26 94C 0 CODE 0
-__ptext45 138E 0 CODE 0
+__ptext45 1390 0 CODE 0
 __ptext64 10C6 0 CODE 0
-_I2C2_MasterStop 1370 0 CODE 0
+_I2C2_MasterStop 1372 0 CODE 0
 __Htext65 0 0 ABS 0
 __Htext46 0 0 ABS 0
 __Htext27 0 0 ABS 0
@@ -524,7 +524,7 @@ __Ltext65 0 0 ABS 0
 __Ltext46 0 0 ABS 0
 __Ltext27 0 0 ABS 0
 __ptext17 C80 0 CODE 0
-__ptext36 136A 0 CODE 0
+__ptext36 136C 0 CODE 0
 __ptext55 B10 0 CODE 0
 __size_of_I2C2_MasterWaitForEvent 0 0 ABS 0
 __end_of_rdBlkRegCompleteHandler FB4 0 CODE 0
@@ -535,7 +535,7 @@ __Ltext56 0 0 ABS 0
 __Ltext37 0 0 ABS 0
 __Ltext18 0 0 ABS 0
 __ptext27 B92 0 CODE 0
-__ptext46 1338 0 CODE 0
+__ptext46 133A 0 CODE 0
 __ptext65 11A2 0 CODE 0
 _I2C2STAT1bits 3D62 0 ABS 0
 I2C2_SetCallback@idx 33 0 COMRAM 1
@@ -546,8 +546,8 @@ I2C2_SetCallback@ptr 31 0 COMRAM 1
 __Ltext66 0 0 ABS 0
 __Ltext47 0 0 ABS 0
 __Ltext28 0 0 ABS 0
-__ptext18 12DA 0 CODE 0
-__ptext37 1370 0 CODE 0
+__ptext18 12DC 0 CODE 0
+__ptext37 1372 0 CODE 0
 __ptext56 1180 0 CODE 0
 __Htext57 0 0 ABS 0
 __Htext38 0 0 ABS 0
@@ -556,36 +556,36 @@ __Ltext57 0 0 ABS 0
 __Ltext38 0 0 ABS 0
 __Ltext19 0 0 ABS 0
 _I2C2_WriteNBytes E70 0 CODE 0
-_I2C2_DO_RX_NACK_RESTART 134A 0 CODE 0
+_I2C2_DO_RX_NACK_RESTART 134C 0 CODE 0
 __ptext28 9EA 0 CODE 0
-__ptext47 13AE 0 CODE 0
-__ptext66 130E 0 CODE 0
+__ptext47 13B0 0 CODE 0
+__ptext66 1310 0 CODE 0
 __end_of_i2c2_fsmStateTable 827 0 SMALLCONST 0
-__end_of_I2C2_MasterClearCountFlag 13A6 0 CODE 0
+__end_of_I2C2_MasterClearCountFlag 13A8 0 CODE 0
 __Htext67 0 0 ABS 0
 __Htext48 0 0 ABS 0
 __Htext29 0 0 ABS 0
 __Ltext67 0 0 ABS 0
 __Ltext48 0 0 ABS 0
 __Ltext29 0 0 ABS 0
-__ptext19 134A 0 CODE 0
-__ptext38 1376 0 CODE 0
+__ptext19 134C 0 CODE 0
+__ptext38 1378 0 CODE 0
 __ptext57 ECA 0 CODE 0
-_I2C2_DO_SEND_RESTART_WRITE 13AA 0 CODE 0
+_I2C2_DO_SEND_RESTART_WRITE 13AC 0 CODE 0
 ___intlo_sp 0 0 STACK 2
 __Htext58 0 0 ABS 0
 __Htext39 0 0 ABS 0
 __Ltext58 0 0 ABS 0
 __Ltext39 0 0 ABS 0
 __ptext29 828 0 CODE 0
-__ptext48 13B2 0 CODE 0
-__ptext67 1362 0 CODE 0
+__ptext48 13B4 0 CODE 0
+__ptext67 1364 0 CODE 0
 _I2C2_MasterDisableIrq 11A2 0 CODE 0
 __Htext68 0 0 ABS 0
 __Htext49 0 0 ABS 0
 __Ltext68 0 0 ABS 0
 __Ltext49 0 0 ABS 0
-__ptext39 137C 0 CODE 0
+__ptext39 137E 0 CODE 0
 __ptext58 1266 0 CODE 0
 __Htext59 0 0 ABS 0
 __Ltext59 0 0 ABS 0
@@ -599,18 +599,18 @@ __HidataCOMRAM 0 0 ABS 0
 __LidataCOMRAM 0 0 ABS 0
 __end_of_I2C2_SetBuffer 11A2 0 CODE 0
 _PMD_Initialize 1118 0 CODE 0
-__pidataCOMRAM 12F6 0 CODE 0
+__pidataCOMRAM 12F8 0 CODE 0
 __size_of_I2C2_DO_IDLE 0 0 ABS 0
-__end_of_I2C2_DO_SEND_RESTART_WRITE 13AE 0 CODE 0
+__end_of_I2C2_DO_SEND_RESTART_WRITE 13B0 0 CODE 0
 _OSCILLATOR_Initialize 11DC 0 CODE 0
 __smallconst 800 0 SMALLCONST 0
 __end_of_I2C2_MasterIsTxBufEmpty 123A 0 CODE 0
 __Hreset_vec 4 0 CODE 0
-__end_of_I2C2_MasterClose 131A 0 CODE 0
+__end_of_I2C2_MasterClose 131C 0 CODE 0
 __Lreset_vec 0 0 CODE 0
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0
 __size_of_I2C2_MasterGetCounter 0 0 ABS 0
-__end_of_I2C2_MasterWrite 134A 0 CODE 0
+__end_of_I2C2_MasterWrite 134C 0 CODE 0
 __end_of_rd2RegCompleteHandler 1044 0 CODE 0
 __end_of_I2C2_Initialize 115E 0 CODE 0
 __size_of_I2C2_MasterSetCounter 0 0 ABS 0
@@ -629,22 +629,22 @@ __HdataCOMRAM 0 0 ABS 0
 __LdataCOMRAM 0 0 ABS 0
 _I2C2_MasterOpen 115E 0 CODE 0
 __pdataCOMRAM 49 0 COMRAM 1
-__end_of_I2C2_DO_SEND_ADR_WRITE 12CC 0 CODE 0
+__end_of_I2C2_DO_SEND_ADR_WRITE 12BC 0 CODE 0
 __size_of_I2C2_DO_RESET 0 0 ABS 0
 __size_of_I2C2_MasterEnableRestart 0 0 ABS 0
 start_initialization FB4 0 CODE 0
-__end_of_I2C2_MasterClearIrq 136A 0 CODE 0
+__end_of_I2C2_MasterClearIrq 136C 0 CODE 0
 __end_of_I2C2_SetDataCompleteCallback 1224 0 CODE 0
-_I2C2_MasterResetBus 1338 0 CODE 0
+_I2C2_MasterResetBus 133A 0 CODE 0
 __end_of_I2C2_DO_SEND_STOP 1118 0 CODE 0
 __end_of_I2C2_DO_BUS_COLLISION C80 0 CODE 0
 __size_of_OSCILLATOR_Initialize 0 0 ABS 0
-__end_of_I2C2_DO_BUS_ERROR 12DA 0 CODE 0
-__end_of_I2C2_MasterSendAck 1382 0 CODE 0
+__end_of_I2C2_DO_BUS_ERROR 12DC 0 CODE 0
+__end_of_I2C2_MasterSendAck 1384 0 CODE 0
 __initialization FB4 0 CODE 0
 __end_of_I2C2_MasterFsm E14 0 CODE 0
 _I2C2_MasterIsStopFlagSet 1266 0 CODE 0
-__end_of_I2C2_MasterGetRxData 1388 0 CODE 0
+__end_of_I2C2_MasterGetRxData 138A 0 CODE 0
 _I2C2_SetAddressNackCallback 11F4 0 CODE 0
 __activetblptr 2 0 ABS 0
 I2C2_Close@returnValue 2F 0 COMRAM 1
@@ -656,11 +656,11 @@ reset_vec 0 3 CODE 0 0
 init 7FFC 7FFF CODE 7FFC 0
 smallconst 800 827 SMALLCONST 800 0
 bssCOMRAM 1 54 COMRAM 1 1
-text29 828 13B5 CODE 828 0
+text29 828 13B7 CODE 828 0
 %locals
 dist/default/production\XC8-MCC-18F25K83_i2c_test.X.production.o
 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k83.h
-C:\Users\Pedro\AppData\Local\Temp\xcAsq40.s
+C:\Users\Pedro\AppData\Local\Temp\xcAs874.s
 8560 FB4 0 CODE 0
 8562 FB4 0 CODE 0
 8565 FB4 0 CODE 0
@@ -690,23 +690,23 @@ C:\Users\Pedro\AppData\Local\Temp\xcAsq40.s
 8622 FE6 0 CODE 0
 8623 FE8 0 CODE 0
 main.c
-53 CEC 0 CODE 0
-56 CEC 0 CODE 0
-73 CF0 0 CODE 0
-74 CF2 0 CODE 0
-78 D0A 0 CODE 0
-79 D20 0 CODE 0
-84 D2E 0 CODE 0
-86 D30 0 CODE 0
-87 D40 0 CODE 0
-89 D46 0 CODE 0
+54 CEC 0 CODE 0
+57 CEC 0 CODE 0
+74 CF0 0 CODE 0
+75 CF2 0 CODE 0
+79 D0A 0 CODE 0
+80 D20 0 CODE 0
+85 D2E 0 CODE 0
+87 D30 0 CODE 0
+88 D40 0 CODE 0
+90 D46 0 CODE 0
 mcc_generated_files/mcc.c
-50 12A8 0 CODE 0
-52 12A8 0 CODE 0
-53 12AC 0 CODE 0
-54 12B0 0 CODE 0
-55 12B4 0 CODE 0
-56 12B8 0 CODE 0
+50 12BC 0 CODE 0
+52 12BC 0 CODE 0
+53 12C0 0 CODE 0
+54 12C4 0 CODE 0
+55 12C8 0 CODE 0
+56 12CC 0 CODE 0
 mcc_generated_files/mcc.c
 72 1118 0 CODE 0
 75 1118 0 CODE 0
@@ -815,9 +815,9 @@ mcc_generated_files/i2c2_master.c
 645 117C 0 CODE 0
 649 117E 0 CODE 0
 mcc_generated_files/i2c2_master.c
-281 1342 0 CODE 0
-283 1342 0 CODE 0
-284 1348 0 CODE 0
+281 1344 0 CODE 0
+283 1344 0 CODE 0
+284 134A 0 CODE 0
 mcc_generated_files/i2c2_master.c
 252 F1C 0 CODE 0
 254 F1E 0 CODE 0
@@ -862,12 +862,12 @@ mcc_generated_files/i2c2_master.c
 359 DE2 0 CODE 0
 360 E12 0 CODE 0
 mcc_generated_files/i2c2_master.c
-595 12CC 0 CODE 0
-597 12CC 0 CODE 0
-598 12D0 0 CODE 0
-599 12D2 0 CODE 0
-600 12D6 0 CODE 0
-601 12D8 0 CODE 0
+595 12CE 0 CODE 0
+597 12CE 0 CODE 0
+598 12D2 0 CODE 0
+599 12D4 0 CODE 0
+600 12D8 0 CODE 0
+601 12DA 0 CODE 0
 mcc_generated_files/i2c2_master.c
 579 C0C 0 CODE 0
 582 C0C 0 CODE 0
@@ -895,28 +895,28 @@ mcc_generated_files/i2c2_master.c
 576 CE0 0 CODE 0
 577 CEA 0 CODE 0
 mcc_generated_files/i2c2_master.c
-557 12DA 0 CODE 0
-559 12DA 0 CODE 0
-560 12DE 0 CODE 0
-561 12E0 0 CODE 0
-562 12E4 0 CODE 0
-563 12E6 0 CODE 0
+557 12DC 0 CODE 0
+559 12DC 0 CODE 0
+560 12E0 0 CODE 0
+561 12E2 0 CODE 0
+562 12E6 0 CODE 0
+563 12E8 0 CODE 0
 mcc_generated_files/i2c2_master.c
-551 134A 0 CODE 0
-553 134A 0 CODE 0
-554 134E 0 CODE 0
-555 1350 0 CODE 0
+551 134C 0 CODE 0
+553 134C 0 CODE 0
+554 1350 0 CODE 0
+555 1352 0 CODE 0
 mcc_generated_files/i2c2_master.c
-544 12E8 0 CODE 0
-546 12E8 0 CODE 0
-547 12EC 0 CODE 0
-548 12F0 0 CODE 0
-549 12F4 0 CODE 0
+544 12EA 0 CODE 0
+546 12EA 0 CODE 0
+547 12EE 0 CODE 0
+548 12F2 0 CODE 0
+549 12F6 0 CODE 0
 mcc_generated_files/i2c2_master.c
-532 1352 0 CODE 0
-534 1352 0 CODE 0
-535 1356 0 CODE 0
-536 1358 0 CODE 0
+532 1354 0 CODE 0
+534 1354 0 CODE 0
+535 1358 0 CODE 0
+536 135A 0 CODE 0
 mcc_generated_files/i2c2_master.c
 521 10F0 0 CODE 0
 523 10F0 0 CODE 0
@@ -926,18 +926,18 @@ mcc_generated_files/i2c2_master.c
 529 1114 0 CODE 0
 530 1116 0 CODE 0
 mcc_generated_files/i2c2_master.c
-516 13A6 0 CODE 0
-518 13A6 0 CODE 0
-519 13A8 0 CODE 0
+516 13A8 0 CODE 0
+518 13A8 0 CODE 0
+519 13AA 0 CODE 0
 mcc_generated_files/i2c2_master.c
-510 13AA 0 CODE 0
-512 13AA 0 CODE 0
-513 13AC 0 CODE 0
+510 13AC 0 CODE 0
+512 13AC 0 CODE 0
+513 13AE 0 CODE 0
 mcc_generated_files/i2c2_master.c
-504 1302 0 CODE 0
-506 1302 0 CODE 0
-507 1308 0 CODE 0
-508 130C 0 CODE 0
+504 1304 0 CODE 0
+506 1304 0 CODE 0
+507 130A 0 CODE 0
+508 130E 0 CODE 0
 mcc_generated_files/i2c2_master.c
 479 94C 0 CODE 0
 481 94C 0 CODE 0
@@ -1009,11 +1009,11 @@ mcc_generated_files/i2c2_master.c
 432 948 0 CODE 0
 434 94A 0 CODE 0
 mcc_generated_files/i2c2_master.c
-396 12BA 0 CODE 0
-398 12BA 0 CODE 0
-399 12C2 0 CODE 0
-400 12C8 0 CODE 0
-401 12CA 0 CODE 0
+396 12A8 0 CODE 0
+398 12A8 0 CODE 0
+399 12B0 0 CODE 0
+400 12B8 0 CODE 0
+401 12BA 0 CODE 0
 mcc_generated_files/i2c2_master.c
 385 109C 0 CODE 0
 387 109C 0 CODE 0
@@ -1023,16 +1023,16 @@ mcc_generated_files/i2c2_master.c
 393 10C2 0 CODE 0
 394 10C4 0 CODE 0
 mcc_generated_files/i2c2_master.c
-378 131A 0 CODE 0
-380 131A 0 CODE 0
-381 131C 0 CODE 0
-382 1320 0 CODE 0
-383 1322 0 CODE 0
+378 131C 0 CODE 0
+380 131C 0 CODE 0
+381 131E 0 CODE 0
+382 1322 0 CODE 0
+383 1324 0 CODE 0
 mcc_generated_files/i2c2_master.c
-538 135A 0 CODE 0
-540 135A 0 CODE 0
-541 135E 0 CODE 0
-542 1360 0 CODE 0
+538 135C 0 CODE 0
+540 135C 0 CODE 0
+541 1360 0 CODE 0
+542 1362 0 CODE 0
 mcc_generated_files/i2c2_master.c
 736 1224 0 CODE 0
 738 1224 0 CODE 0
@@ -1042,59 +1042,59 @@ mcc_generated_files/i2c2_master.c
 711 123A 0 CODE 0
 712 124E 0 CODE 0
 mcc_generated_files/i2c2_master.c
-671 136A 0 CODE 0
-673 136A 0 CODE 0
-674 136E 0 CODE 0
+671 136C 0 CODE 0
+673 136C 0 CODE 0
+674 1370 0 CODE 0
 mcc_generated_files/i2c2_master.c
-703 1370 0 CODE 0
-706 1370 0 CODE 0
-707 1374 0 CODE 0
+703 1372 0 CODE 0
+706 1372 0 CODE 0
+707 1376 0 CODE 0
 mcc_generated_files/i2c2_master.c
-719 1376 0 CODE 0
-721 1376 0 CODE 0
-722 137A 0 CODE 0
+719 1378 0 CODE 0
+721 1378 0 CODE 0
+722 137C 0 CODE 0
 mcc_generated_files/i2c2_master.c
-714 137C 0 CODE 0
-716 137C 0 CODE 0
-717 1380 0 CODE 0
+714 137E 0 CODE 0
+716 137E 0 CODE 0
+717 1382 0 CODE 0
 mcc_generated_files/i2c2_master.c
 731 1250 0 CODE 0
 733 1250 0 CODE 0
 734 1264 0 CODE 0
 mcc_generated_files/i2c2_master.c
-661 1382 0 CODE 0
-663 1382 0 CODE 0
-664 1386 0 CODE 0
+661 1384 0 CODE 0
+663 1384 0 CODE 0
+664 1388 0 CODE 0
 mcc_generated_files/i2c2_master.c
-666 1324 0 CODE 0
-668 1326 0 CODE 0
-669 132C 0 CODE 0
+666 1326 0 CODE 0
+668 1328 0 CODE 0
+669 132E 0 CODE 0
 mcc_generated_files/i2c2_master.c
-676 132E 0 CODE 0
-678 1330 0 CODE 0
-679 1336 0 CODE 0
+676 1330 0 CODE 0
+678 1332 0 CODE 0
+679 1338 0 CODE 0
 mcc_generated_files/i2c2_master.c
-691 1388 0 CODE 0
-694 1388 0 CODE 0
-695 138C 0 CODE 0
+691 138A 0 CODE 0
+694 138A 0 CODE 0
+695 138E 0 CODE 0
 mcc_generated_files/i2c2_master.c
-697 138E 0 CODE 0
-700 138E 0 CODE 0
-701 1392 0 CODE 0
+697 1390 0 CODE 0
+700 1390 0 CODE 0
+701 1394 0 CODE 0
 mcc_generated_files/i2c2_master.c
-681 1338 0 CODE 0
-684 1338 0 CODE 0
-686 133C 0 CODE 0
-688 133E 0 CODE 0
-689 1340 0 CODE 0
+681 133A 0 CODE 0
+684 133A 0 CODE 0
+686 133E 0 CODE 0
+688 1340 0 CODE 0
+689 1342 0 CODE 0
 mcc_generated_files/i2c2_master.c
-614 13AE 0 CODE 0
-616 13AE 0 CODE 0
-617 13B0 0 CODE 0
+614 13B0 0 CODE 0
+616 13B0 0 CODE 0
+617 13B2 0 CODE 0
 mcc_generated_files/i2c2_master.c
-609 13B2 0 CODE 0
-611 13B2 0 CODE 0
-612 13B4 0 CODE 0
+609 13B4 0 CODE 0
+611 13B4 0 CODE 0
+612 13B6 0 CODE 0
 mcc_generated_files/examples/i2c2_master_example.c
 170 F68 0 CODE 0
 172 F68 0 CODE 0
@@ -1169,17 +1169,17 @@ mcc_generated_files/i2c2_master.c
 748 1292 0 CODE 0
 749 12A6 0 CODE 0
 mcc_generated_files/i2c2_master.c
-756 1394 0 CODE 0
-758 1394 0 CODE 0
-759 1398 0 CODE 0
+756 1396 0 CODE 0
+758 1396 0 CODE 0
+759 139A 0 CODE 0
 mcc_generated_files/i2c2_master.c
-766 139A 0 CODE 0
-768 139A 0 CODE 0
-769 139E 0 CODE 0
+766 139C 0 CODE 0
+768 139C 0 CODE 0
+769 13A0 0 CODE 0
 mcc_generated_files/i2c2_master.c
-761 13A0 0 CODE 0
-763 13A0 0 CODE 0
-764 13A4 0 CODE 0
+761 13A2 0 CODE 0
+763 13A2 0 CODE 0
+764 13A6 0 CODE 0
 mcc_generated_files/i2c2_master.c
 237 10C6 0 CODE 0
 239 10C6 0 CODE 0
@@ -1208,12 +1208,12 @@ mcc_generated_files/i2c2_master.c
 801 11BC 0 CODE 0
 802 11BE 0 CODE 0
 mcc_generated_files/i2c2_master.c
-651 130E 0 CODE 0
-654 130E 0 CODE 0
-656 1312 0 CODE 0
-658 1316 0 CODE 0
-659 1318 0 CODE 0
+651 1310 0 CODE 0
+654 1310 0 CODE 0
+656 1314 0 CODE 0
+658 1318 0 CODE 0
+659 131A 0 CODE 0
 mcc_generated_files/i2c2_master.c
-804 1362 0 CODE 0
-806 1362 0 CODE 0
-807 1368 0 CODE 0
+804 1364 0 CODE 0
+806 1364 0 CODE 0
+807 136A 0 CODE 0

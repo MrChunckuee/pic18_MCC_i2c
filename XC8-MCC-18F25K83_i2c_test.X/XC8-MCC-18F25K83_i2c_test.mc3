@@ -1972,7 +1972,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="I2C2" name="enableClockStretch"/>
-         <value>false</value>
+         <value>true</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="I2C2" name="enableGeneralCall"/>
@@ -2464,7 +2464,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="I2C2" registerAlias="I2CCON1"/>
-         <value>1</value>
+         <value>128</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="I2C2" registerAlias="I2CCON2"/>
@@ -2556,7 +2556,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="I2C2" registerAlias="I2CCON1" settingAlias="ACKCNT"/>
-         <value>Acknowledge</value>
+         <value>Not Acknowledge</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="I2C2" registerAlias="I2CCON1" settingAlias="ACKDT"/>
@@ -2572,7 +2572,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="I2C2" registerAlias="I2CCON1" settingAlias="CSD"/>
-         <value>Clock Stretching disabled</value>
+         <value>Clock Stretching enabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="I2C2" registerAlias="I2CCON1" settingAlias="RXO"/>
@@ -8934,7 +8934,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\i2c2_master.c</file>
-         <hash>ab96f35891a118c2aca3d38fc38de36db980c9a8ebc5fc45f3e3fad7f3cf78c0</hash>
+         <hash>24f4ebc8b2e0bc5979de09829715902734c01665a40f764138e97e2771a54a9f</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\mcc.c</file>

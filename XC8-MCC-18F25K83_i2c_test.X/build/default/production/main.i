@@ -36754,17 +36754,18 @@ uint8_t i2c_read_data[10];
 
 
 
+
 void main(void)
 {
 
     SYSTEM_Initialize();
-# 73 "main.c"
+# 74 "main.c"
     do { LATCbits.LATC4 = 1; } while(0);
     _delay((unsigned long)((1000)*(64000000/4000.0)));
 
     while (1)
     {
-        I2C2_WriteNBytes(0xA0, i2c_send_data, 5 );
+        I2C2_WriteNBytes(0x50, i2c_send_data, 5 );
         _delay((unsigned long)((10)*(64000000/4000.0)));
 
 

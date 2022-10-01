@@ -36821,7 +36821,7 @@ void I2C2_Initialize()
 
     I2C2CON0 = 0x24;
 
-    I2C2CON1 = 0x01;
+    I2C2CON1 = 0x80;
 
     I2C2CON2 = 0x10;
 
@@ -37025,14 +37025,14 @@ static i2c2_fsm_states_t I2C2_DO_SEND_ADR_READ(void)
     {
         I2C2_DO_RX_EMPTY();
     }
-    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address | 1));
+    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address << 1 | 1));
     return I2C2_RX;
 }
 
 static i2c2_fsm_states_t I2C2_DO_SEND_ADR_WRITE(void)
 {
     I2C2_Status.addressNackCheck = 2;
-    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address ));
+    I2C2_MasterSendTxData((uint8_t) (I2C2_Status.address << 1));
     return I2C2_TX;
 }
 
