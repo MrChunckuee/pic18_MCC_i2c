@@ -1,4 +1,4 @@
-# 1 "mcc_generated_files/mcc.c"
+# 1 "main.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,10 +6,10 @@
 # 1 "<built-in>" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "mcc_generated_files/mcc.c" 2
-# 47 "mcc_generated_files/mcc.c"
-# 1 "mcc_generated_files/mcc.h" 1
-# 49 "mcc_generated_files/mcc.h"
+# 1 "main.c" 2
+# 44 "main.c"
+# 1 "./mcc_generated_files/mcc.h" 1
+# 49 "./mcc_generated_files/mcc.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 1 3
 # 18 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -36428,21 +36428,21 @@ __attribute__((__unsupported__("The READTIMER" "3" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 33 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\xc.h" 2 3
-# 49 "mcc_generated_files/mcc.h" 2
+# 49 "./mcc_generated_files/mcc.h" 2
 
-# 1 "mcc_generated_files/device_config.h" 1
-# 50 "mcc_generated_files/mcc.h" 2
+# 1 "./mcc_generated_files/device_config.h" 1
+# 50 "./mcc_generated_files/mcc.h" 2
 
-# 1 "mcc_generated_files/pin_manager.h" 1
-# 202 "mcc_generated_files/pin_manager.h"
+# 1 "./mcc_generated_files/pin_manager.h" 1
+# 202 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 214 "mcc_generated_files/pin_manager.h"
+# 214 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 51 "mcc_generated_files/mcc.h" 2
+# 51 "./mcc_generated_files/mcc.h" 2
 
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdbool.h" 1 3
-# 53 "mcc_generated_files/mcc.h" 2
+# 53 "./mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\conio.h" 1 3
 
@@ -36475,10 +36475,10 @@ extern __bit kbhit(void);
 
 extern char * cgets(char *);
 extern void cputs(const char *);
-# 54 "mcc_generated_files/mcc.h" 2
+# 54 "./mcc_generated_files/mcc.h" 2
 
-# 1 "mcc_generated_files/i2c2_master.h" 1
-# 54 "mcc_generated_files/i2c2_master.h"
+# 1 "./mcc_generated_files/i2c2_master.h" 1
+# 54 "./mcc_generated_files/i2c2_master.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 1 3
 # 24 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 3
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -36617,7 +36617,7 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 54 "mcc_generated_files/i2c2_master.h" 2
+# 54 "./mcc_generated_files/i2c2_master.h" 2
 
 
 
@@ -36654,11 +36654,11 @@ i2c2_operations_t I2C2_CallbackRestartRead(void *funPtr);
 
 
 void I2C2_Initialize(void);
-# 101 "mcc_generated_files/i2c2_master.h"
+# 101 "./mcc_generated_files/i2c2_master.h"
 i2c2_error_t I2C2_Open(i2c2_address_t address);
-# 111 "mcc_generated_files/i2c2_master.h"
+# 111 "./mcc_generated_files/i2c2_master.h"
 i2c2_error_t I2C2_Close(void);
-# 123 "mcc_generated_files/i2c2_master.h"
+# 123 "./mcc_generated_files/i2c2_master.h"
 i2c2_error_t I2C2_MasterOperation(_Bool read);
 
 
@@ -36670,69 +36670,71 @@ i2c2_error_t I2C2_MasterWrite(void);
 
 
 i2c2_error_t I2C2_MasterRead(void);
-# 142 "mcc_generated_files/i2c2_master.h"
+# 142 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetTimeout(uint8_t timeOut);
-# 152 "mcc_generated_files/i2c2_master.h"
+# 152 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetBuffer(void *buffer, size_t bufferSize);
-# 164 "mcc_generated_files/i2c2_master.h"
+# 164 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetDataCompleteCallback(i2c2_callback_t cb, void *ptr);
-# 174 "mcc_generated_files/i2c2_master.h"
+# 174 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetWriteCollisionCallback(i2c2_callback_t cb, void *ptr);
-# 184 "mcc_generated_files/i2c2_master.h"
+# 184 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetAddressNackCallback(i2c2_callback_t cb, void *ptr);
-# 194 "mcc_generated_files/i2c2_master.h"
+# 194 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetDataNackCallback(i2c2_callback_t cb, void *ptr);
-# 204 "mcc_generated_files/i2c2_master.h"
+# 204 "./mcc_generated_files/i2c2_master.h"
 void I2C2_SetTimeoutCallback(i2c2_callback_t cb, void *ptr);
-# 55 "mcc_generated_files/mcc.h" 2
-# 70 "mcc_generated_files/mcc.h"
+# 55 "./mcc_generated_files/mcc.h" 2
+# 70 "./mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
-# 83 "mcc_generated_files/mcc.h"
+# 83 "./mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
-# 96 "mcc_generated_files/mcc.h"
+# 96 "./mcc_generated_files/mcc.h"
 void PMD_Initialize(void);
-# 47 "mcc_generated_files/mcc.c" 2
+# 44 "main.c" 2
+
+# 1 "./mcc_generated_files/examples/i2c2_master_example.h" 1
+# 54 "./mcc_generated_files/examples/i2c2_master_example.h"
+uint8_t I2C2_Read1ByteRegister(i2c2_address_t address, uint8_t reg);
+uint16_t I2C2_Read2ByteRegister(i2c2_address_t address, uint8_t reg);
+void I2C2_Write1ByteRegister(i2c2_address_t address, uint8_t reg, uint8_t data);
+void I2C2_Write2ByteRegister(i2c2_address_t address, uint8_t reg, uint16_t data);
+void I2C2_WriteNBytes(i2c2_address_t address, uint8_t *data, size_t len);
+void I2C2_ReadNBytes(i2c2_address_t address, uint8_t *data, size_t len);
+void I2C2_ReadDataBlock(i2c2_address_t address, uint8_t reg, uint8_t *data, size_t len);
+# 45 "main.c" 2
+
+
+uint8_t i2c_send_data[6] = {0x00, 0x00, 0x0A, 0x0B, 0x0C, 0x0D};
+uint8_t i2c_read_data[4];
+uint8_t i2c_memory_index[2];
+uint8_t i2c_memory_config[2];
 
 
 
-void SYSTEM_Initialize(void)
-{
-    PMD_Initialize();
-    I2C2_Initialize();
-    PIN_MANAGER_Initialize();
-    OSCILLATOR_Initialize();
-}
 
-void OSCILLATOR_Initialize(void)
-{
 
-    OSCCON1 = 0x60;
-
-    OSCCON3 = 0x00;
-
-    OSCEN = 0x00;
-
-    OSCFRQ = 0x08;
-
-    OSCTUNE = 0x00;
-}
-
-void PMD_Initialize(void)
+void main(void)
 {
 
-    PMD0 = 0x00;
+    SYSTEM_Initialize();
+# 76 "main.c"
+    do { LATCbits.LATC4 = 1; } while(0);
+    _delay((unsigned long)((1000)*(64000000/4000.0)));
 
-    PMD1 = 0x00;
+    while (1)
+    {
+        I2C2_WriteNBytes(0x50, i2c_send_data, sizeof(i2c_send_data));
+        _delay((unsigned long)((1)*(64000000/4000.0)));
+        I2C2_WriteNBytes(0x50, i2c_send_data, 2);
+        I2C2_ReadNBytes(0x50, i2c_read_data, sizeof(i2c_read_data));
+        _delay((unsigned long)((1)*(64000000/4000.0)));
+# 96 "main.c"
+        do { LATCbits.LATC4 = 0; } while(0);
 
-    PMD2 = 0x00;
-
-    PMD3 = 0x00;
-
-    PMD4 = 0x00;
-
-    PMD5 = 0x00;
-
-    PMD6 = 0x00;
-
-    PMD7 = 0x00;
+        if(i2c_read_data[0] == 0x0A)
+            do { LATBbits.LATB0 = 0; } while(0);
+        else
+            do { LATBbits.LATB0 = 1; } while(0);
+    }
 }

@@ -7,94 +7,94 @@
 # Each line that follows describes a psect in that object file, until
 # the next object file.  The lines that describe a psect have the
 # format:
-#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
+$C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+idloc IDLOC 5 200000 200000 10 1
+init CODE 0 7FFC 7FFC 4 1
+reset_vec CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 A 1
 $dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-cinit CODE 0 1086 1086 38 1 2
-idloc IDLOC 5 200000 200000 10 1 1
-text0 CODE 0 954 954 A4 1 2
-text1 CODE 0 139C 139C 12 1 2
-text2 CODE 0 1214 1214 24 1 2
-text3 CODE 0 BC2 BC2 82 1 2
-text4 CODE 0 12BC 12BC 18 1 2
-text5 CODE 0 116E 116E 2A 1 2
-text6 CODE 0 EF8 EF8 5A 1 2
-text7 CODE 0 12D4 12D4 18 1 2
-text8 CODE 0 141E 141E 8 1 2
-text9 CODE 0 1040 1040 46 1 2
-text10 CODE 0 B2E B2E 94 1 2
-text11 CODE 0 1238 1238 22 1 2
-text12 CODE 0 1426 1426 8 1 2
-text13 CODE 0 FA6 FA6 4E 1 2
-text14 CODE 0 125A 125A 22 1 2
-text15 CODE 0 E28 E28 6E 1 2
-text16 CODE 0 E96 E96 62 1 2
-text17 CODE 0 13BE 13BE E 1 2
-text18 CODE 0 D40 D40 74 1 2
-text19 CODE 0 DB4 DB4 74 1 2
-text20 CODE 0 13CC 13CC E 1 2
-text21 CODE 0 142E 142E 8 1 2
-text22 CODE 0 13DA 13DA E 1 2
-text23 CODE 0 1436 1436 8 1 2
-text24 CODE 0 11EC 11EC 28 1 2
-text25 CODE 0 148E 148E 4 1 2
-text26 CODE 0 1492 1492 4 1 2
-text27 CODE 0 13AE 13AE 10 1 2
-text28 CODE 0 9F8 9F8 9E 1 2
-text29 CODE 0 CC6 CC6 7A 1 2
-text30 CODE 0 A96 A96 98 1 2
-text31 CODE 0 828 828 12C 1 2
-text32 CODE 0 1388 1388 14 1 2
-text33 CODE 0 1198 1198 2A 1 2
-text34 CODE 0 144C 144C 6 1 2
-text35 CODE 0 143E 143E 8 1 2
-text36 CODE 0 1304 1304 16 1 2
-text37 CODE 0 131A 131A 16 1 2
-text38 CODE 0 1452 1452 6 1 2
-text39 CODE 0 1458 1458 6 1 2
-text40 CODE 0 145E 145E 6 1 2
-text41 CODE 0 1464 1464 6 1 2
-text42 CODE 0 1330 1330 16 1 2
-text43 CODE 0 146A 146A 6 1 2
-text44 CODE 0 1400 1400 A 1 2
-text45 CODE 0 140A 140A A 1 2
-text46 CODE 0 1496 1496 4 1 2
-text47 CODE 0 149A 149A 4 1 2
-text48 CODE 0 FF4 FF4 4C 1 2
-text49 CODE 0 10BE 10BE 2C 1 2
-text50 CODE 0 10EA 10EA 2C 1 2
-text51 CODE 0 1116 1116 2C 1 2
-text52 CODE 0 1142 1142 2C 1 2
-text53 CODE 0 12EC 12EC 18 1 2
-text54 CODE 0 C44 C44 82 1 2
-text55 CODE 0 127C 127C 22 1 2
-text56 CODE 0 1414 1414 A 1 2
-text57 CODE 0 1470 1470 6 1 2
-text58 CODE 0 1476 1476 6 1 2
-text59 CODE 0 F52 F52 54 1 2
-text60 CODE 0 1346 1346 16 1 2
-text61 CODE 0 135C 135C 16 1 2
-text62 CODE 0 1372 1372 16 1 2
-text63 CODE 0 147C 147C 6 1 2
-text64 CODE 0 1482 1482 6 1 2
-text65 CODE 0 1488 1488 6 1 2
-text66 CODE 0 11C2 11C2 2A 1 2
-text67 CODE 0 129E 129E 1E 1 2
-text68 CODE 0 13E8 13E8 C 1 2
-text69 CODE 0 13F4 13F4 C 1 2
-idataCOMRAM CODE 0 1446 1446 6 1 1
-cstackCOMRAM COMRAM 1 2D 2D 1A 1 1
-smallconst SMALLCONST 0 800 800 28 1 2
-dataCOMRAM COMRAM 1 47 47 6 1 1
-bssCOMRAM COMRAM 1 1 1 2C 1 1
-config CONFIG 4 300000 300000 A 1 1
-$C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-idloc IDLOC 5 200000 200000 10 1 1
-init CODE 0 7FFC 7FFC 4 1 2
-reset_vec CODE 0 0 0 4 1 2
-config CONFIG 4 300000 300000 A 1 1
+cinit CODE 0 1086 1086 38 1
+idloc IDLOC 5 200000 200000 10 1
+text0 CODE 0 954 954 A4 1
+text1 CODE 0 139C 139C 12 1
+text2 CODE 0 1214 1214 24 1
+text3 CODE 0 BC2 BC2 82 1
+text4 CODE 0 12BC 12BC 18 1
+text5 CODE 0 116E 116E 2A 1
+text6 CODE 0 EF8 EF8 5A 1
+text7 CODE 0 12D4 12D4 18 1
+text8 CODE 0 141E 141E 8 1
+text9 CODE 0 1040 1040 46 1
+text10 CODE 0 B2E B2E 94 1
+text11 CODE 0 1238 1238 22 1
+text12 CODE 0 1426 1426 8 1
+text13 CODE 0 FA6 FA6 4E 1
+text14 CODE 0 125A 125A 22 1
+text15 CODE 0 E28 E28 6E 1
+text16 CODE 0 E96 E96 62 1
+text17 CODE 0 13BE 13BE E 1
+text18 CODE 0 D40 D40 74 1
+text19 CODE 0 DB4 DB4 74 1
+text20 CODE 0 13CC 13CC E 1
+text21 CODE 0 142E 142E 8 1
+text22 CODE 0 13DA 13DA E 1
+text23 CODE 0 1436 1436 8 1
+text24 CODE 0 11EC 11EC 28 1
+text25 CODE 0 148E 148E 4 1
+text26 CODE 0 1492 1492 4 1
+text27 CODE 0 13AE 13AE 10 1
+text28 CODE 0 9F8 9F8 9E 1
+text29 CODE 0 CC6 CC6 7A 1
+text30 CODE 0 A96 A96 98 1
+text31 CODE 0 828 828 12C 1
+text32 CODE 0 1388 1388 14 1
+text33 CODE 0 1198 1198 2A 1
+text34 CODE 0 144C 144C 6 1
+text35 CODE 0 143E 143E 8 1
+text36 CODE 0 1304 1304 16 1
+text37 CODE 0 131A 131A 16 1
+text38 CODE 0 1452 1452 6 1
+text39 CODE 0 1458 1458 6 1
+text40 CODE 0 145E 145E 6 1
+text41 CODE 0 1464 1464 6 1
+text42 CODE 0 1330 1330 16 1
+text43 CODE 0 146A 146A 6 1
+text44 CODE 0 1400 1400 A 1
+text45 CODE 0 140A 140A A 1
+text46 CODE 0 1496 1496 4 1
+text47 CODE 0 149A 149A 4 1
+text48 CODE 0 FF4 FF4 4C 1
+text49 CODE 0 10BE 10BE 2C 1
+text50 CODE 0 10EA 10EA 2C 1
+text51 CODE 0 1116 1116 2C 1
+text52 CODE 0 1142 1142 2C 1
+text53 CODE 0 12EC 12EC 18 1
+text54 CODE 0 C44 C44 82 1
+text55 CODE 0 127C 127C 22 1
+text56 CODE 0 1414 1414 A 1
+text57 CODE 0 1470 1470 6 1
+text58 CODE 0 1476 1476 6 1
+text59 CODE 0 F52 F52 54 1
+text60 CODE 0 1346 1346 16 1
+text61 CODE 0 135C 135C 16 1
+text62 CODE 0 1372 1372 16 1
+text63 CODE 0 147C 147C 6 1
+text64 CODE 0 1482 1482 6 1
+text65 CODE 0 1488 1488 6 1
+text66 CODE 0 11C2 11C2 2A 1
+text67 CODE 0 129E 129E 1E 1
+text68 CODE 0 13E8 13E8 C 1
+text69 CODE 0 13F4 13F4 C 1
+idataCOMRAM CODE 0 1446 1446 6 1
+cstackCOMRAM COMRAM 1 2D 2D 1A 1
+smallconst SMALLCONST 0 800 800 28 1
+dataCOMRAM COMRAM 1 47 47 6 1
+bssCOMRAM COMRAM 1 1 1 2C 1
+config CONFIG 4 300000 300000 A 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -113,11 +113,11 @@ BANK6 600-6FF 1
 BANK7 700-7FF 1
 CONST 4-7FF 1
 CONST 149E-7FFB 1
+STACK 60-7FF 1
 SMALLCONST 149E-7FFB 1
 CODE 4-7FF 1
 CODE 149E-7FFB 1
 BIGRAM 4D-7FF 1
-BIGSFR 3700-3FFF 1
 COMRAM 4D-5F 1
 EEDATA 310000-3103FF 1
 MEDIUMCONST 149E-7FFB 1
@@ -135,526 +135,526 @@ MEDIUMCONST 149E-7FFB 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-13F4 text69 CODE >827:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13F4 text69 CODE >829:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13FE text69 CODE >830:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13E8 text68 CODE >673:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13E8 text68 CODE >676:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13EC text68 CODE >678:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13F0 text68 CODE >680:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13F2 text68 CODE >681:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-129E text67 CODE >811:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-129E text67 CODE >813:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12A2 text67 CODE >814:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12A4 text67 CODE >815:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12A6 text67 CODE >816:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12A8 text67 CODE >817:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12AC text67 CODE >818:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12AE text67 CODE >819:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12B0 text67 CODE >820:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12B2 text67 CODE >821:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12B4 text67 CODE >822:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12B6 text67 CODE >823:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12B8 text67 CODE >824:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12BA text67 CODE >825:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11C2 text66 CODE >250:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11C2 text66 CODE >252:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11C6 text66 CODE >253:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11D4 text66 CODE >255:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11D6 text66 CODE >256:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11D8 text66 CODE >257:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11DC text66 CODE >258:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11E0 text66 CODE >259:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11E4 text66 CODE >260:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11E8 text66 CODE >262:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11EA text66 CODE >263:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1488 text65 CODE >783:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1488 text65 CODE >785:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-148C text65 CODE >786:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1482 text64 CODE >788:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1482 text64 CODE >790:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1486 text64 CODE >791:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-147C text63 CODE >778:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-147C text63 CODE >780:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1480 text63 CODE >781:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1372 text62 CODE >768:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1372 text62 CODE >770:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1386 text62 CODE >771:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-135C text61 CODE >773:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-135C text61 CODE >775:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1370 text61 CODE >776:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1346 text60 CODE >763:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1346 text60 CODE >765:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-135A text60 CODE >766:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F52 text59 CODE >378:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F52 text59 CODE >380:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F66 text59 CODE >382:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F6A text59 CODE >383:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F6E text59 CODE >384:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F82 text59 CODE >386:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F86 text59 CODE >387:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F88 text59 CODE >388:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-F8C text59 CODE >389:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FA0 text59 CODE >391:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FA4 text59 CODE >393:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1476 text58 CODE >719:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1476 text58 CODE >722:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-147A text58 CODE >723:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1470 text57 CODE >713:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1470 text57 CODE >716:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1474 text57 CODE >717:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1414 text56 CODE >698:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1416 text56 CODE >700:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-141C text56 CODE >701:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-127C text55 CODE >307:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-127C text55 CODE >309:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-128A text55 CODE >311:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1292 text55 CODE >312:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-129A text55 CODE >313:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-129C text55 CODE >315:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-C44 text54 CODE >342:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-C46 text54 CODE >344:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-C58 text54 CODE >346:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-C74 text54 CODE >347:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-C90 text54 CODE >348:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-C94 text54 CODE >351:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CAC text54 CODE >352:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CC4 text54 CODE >354:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12EC text53 CODE >317:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12EC text53 CODE >319:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1302 text53 CODE >320:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1142 text52 CODE >163:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1142 text52 CODE >165:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1156 text52 CODE >166:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-116A text52 CODE >167:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-116C text52 CODE >168:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1116 text51 CODE >142:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1116 text51 CODE >144:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-112A text51 CODE >145:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-113E text51 CODE >146:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1140 text51 CODE >147:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10EA text50 CODE >149:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10EA text50 CODE >151:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10FE text50 CODE >152:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1112 text50 CODE >153:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1114 text50 CODE >154:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10BE text49 CODE >156:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10BE text49 CODE >158:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10D2 text49 CODE >159:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10E6 text49 CODE >160:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-10E8 text49 CODE >161:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-FF4 text48 CODE >170:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-FF4 text48 CODE >172:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1028 text48 CODE >173:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-103C text48 CODE >174:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-103E text48 CODE >175:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-149A text47 CODE >631:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-149A text47 CODE >633:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-149C text47 CODE >634:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1496 text46 CODE >636:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1496 text46 CODE >638:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1498 text46 CODE >639:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-140A text45 CODE >688:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-140C text45 CODE >690:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1412 text45 CODE >691:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1400 text44 CODE >703:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1400 text44 CODE >706:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1404 text44 CODE >708:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1406 text44 CODE >710:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1408 text44 CODE >711:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-146A text43 CODE >683:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-146A text43 CODE >685:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-146E text43 CODE >686:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1330 text42 CODE >753:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1330 text42 CODE >755:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1344 text42 CODE >756:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1464 text41 CODE >736:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1464 text41 CODE >738:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1468 text41 CODE >739:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-145E text40 CODE >741:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-145E text40 CODE >743:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1462 text40 CODE >744:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1458 text39 CODE >725:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1458 text39 CODE >728:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-145C text39 CODE >729:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1452 text38 CODE >693:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1452 text38 CODE >695:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1456 text38 CODE >696:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-131A text37 CODE >731:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-131A text37 CODE >733:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-132E text37 CODE >734:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1304 text36 CODE >758:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1304 text36 CODE >760:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1318 text36 CODE >761:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-143E text35 CODE >559:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-143E text35 CODE >561:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1442 text35 CODE >562:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1444 text35 CODE >563:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-144C text34 CODE >395:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-144C text34 CODE >397:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-144E text34 CODE >399:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1450 text34 CODE >400:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1198 text33 CODE >402:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1198 text33 CODE >404:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11A0 text33 CODE >405:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11B2 text33 CODE >407:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11B6 text33 CODE >409:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11BE text33 CODE >410:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11C0 text33 CODE >411:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1388 text32 CODE >413:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1388 text32 CODE >415:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1390 text32 CODE >416:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1398 text32 CODE >417:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-139A text32 CODE >418:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-828 text31 CODE >420:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-828 text31 CODE >422:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-840 text31 CODE >427:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-848 text31 CODE >429:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-850 text31 CODE >433:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-854 text31 CODE >434:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-858 text31 CODE >435:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-85E text31 CODE >436:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-88C text31 CODE >436:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-89A text31 CODE >436:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8A2 text31 CODE >436:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8AA text31 CODE >436:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8B2 text31 CODE >436:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8BC text31 CODE >438:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8D0 text31 CODE >440:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8E4 text31 CODE >442:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-8FC text31 CODE >444:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-910 text31 CODE >445:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-944 text31 CODE >446:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-94A text31 CODE >447:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-950 text31 CODE >451:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-952 text31 CODE >453:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A96 text30 CODE >455:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A96 text30 CODE >457:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-AAA text30 CODE >459:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-AB0 text30 CODE >461:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-AC4 text30 CODE >463:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-ADC text30 CODE >464:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-ADC text30 CODE >466:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-AF4 text30 CODE >468:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B0E text30 CODE >473:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B14 text30 CODE >474:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B2A text30 CODE >475:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B2C text30 CODE >477:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CC6 text29 CODE >479:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CC6 text29 CODE >481:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CC8 text29 CODE >482:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CCC text29 CODE >485:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CD0 text29 CODE >486:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CD6 text29 CODE >489:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CDC text29 CODE >490:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CE2 text29 CODE >493:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CE6 text29 CODE >494:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-CEC text29 CODE >495:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D16 text29 CODE >495:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D24 text29 CODE >495:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D2C text29 CODE >495:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D34 text29 CODE >495:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D3E text29 CODE >496:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-9F8 text28 CODE >498:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-9F8 text28 CODE >500:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-9FA text28 CODE >501:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-9FE text28 CODE >504:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A02 text28 CODE >505:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A08 text28 CODE >507:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A0C text28 CODE >508:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A12 text28 CODE >511:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A18 text28 CODE >512:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A1E text28 CODE >515:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A30 text28 CODE >517:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A34 text28 CODE >519:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A3A text28 CODE >521:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A64 text28 CODE >521:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A72 text28 CODE >521:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A7A text28 CODE >521:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A82 text28 CODE >521:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A8A text28 CODE >521:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-A94 text28 CODE >522:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13AE text27 CODE >524:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13AE text27 CODE >526:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13B4 text27 CODE >527:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13B8 text27 CODE >528:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13BC text27 CODE >529:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1492 text26 CODE >531:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1492 text26 CODE >533:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1494 text26 CODE >534:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-148E text25 CODE >537:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-148E text25 CODE >539:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1490 text25 CODE >540:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11EC text24 CODE >542:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11EC text24 CODE >544:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-11F0 text24 CODE >545:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1204 text24 CODE >547:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-120A text24 CODE >548:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1210 text24 CODE >550:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1212 text24 CODE >551:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1436 text23 CODE >553:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1436 text23 CODE >555:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-143A text23 CODE >556:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-143C text23 CODE >557:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13DA text22 CODE >565:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13DA text22 CODE >567:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13DE text22 CODE >568:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13E2 text22 CODE >569:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13E6 text22 CODE >570:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-142E text21 CODE >572:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-142E text21 CODE >574:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1432 text21 CODE >575:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1434 text21 CODE >576:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13CC text20 CODE >578:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13CC text20 CODE >580:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13D0 text20 CODE >581:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13D2 text20 CODE >582:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13D6 text20 CODE >583:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13D8 text20 CODE >584:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DB4 text19 CODE >585:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DB4 text19 CODE >587:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DB8 text19 CODE >588:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DBC text19 CODE >589:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DBE text19 CODE >590:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DC2 text19 CODE >593:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DCA text19 CODE >595:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DD2 text19 CODE >597:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DD8 text19 CODE >598:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E06 text19 CODE >598:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E14 text19 CODE >598:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E1C text19 CODE >598:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E26 text19 CODE >599:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D40 text18 CODE >601:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D40 text18 CODE >604:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D44 text18 CODE >606:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D48 text18 CODE >607:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D4C text18 CODE >609:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D54 text18 CODE >611:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D5C text18 CODE >613:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D64 text18 CODE >614:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-D92 text18 CODE >614:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DA0 text18 CODE >614:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DA8 text18 CODE >614:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-DB2 text18 CODE >615:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13BE text17 CODE >617:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13BE text17 CODE >619:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13C2 text17 CODE >620:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13C4 text17 CODE >621:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13C8 text17 CODE >622:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-13CA text17 CODE >623:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E96 text16 CODE >367:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E96 text16 CODE >369:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E9A text16 CODE >371:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-EC2 text16 CODE >373:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-EC6 text16 CODE >375:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-EF6 text16 CODE >376:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E28 text15 CODE >832:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E28 text15 CODE >834:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E28 text15 CODE >836:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E3C text15 CODE >839:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E3C text15 CODE >840:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E4E text15 CODE >843:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E4E text15 CODE >844:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E62 text15 CODE >847:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E62 text15 CODE >848:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E74 text15 CODE >851:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E74 text15 CODE >852:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E86 text15 CODE >855:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E86 text15 CODE >856:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-E94 text15 CODE >860:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-125A text14 CODE >356:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-125A text14 CODE >358:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-125E text14 CODE >360:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1262 text14 CODE >361:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1264 text14 CODE >362:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1268 text14 CODE >363:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-126A text14 CODE >358:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1278 text14 CODE >365:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-127A text14 CODE >366:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FA6 text13 CODE >265:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FA8 text13 CODE >267:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FAC text13 CODE >268:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FBA text13 CODE >270:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FBC text13 CODE >271:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FC0 text13 CODE >272:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FC6 text13 CODE >274:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FD6 text13 CODE >276:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FDA text13 CODE >277:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FDE text13 CODE >278:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FE2 text13 CODE >281:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FE6 text13 CODE >282:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FEA text13 CODE >284:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FEC text13 CODE >285:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FF0 text13 CODE >287:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-FF2 text13 CODE >288:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1426 text12 CODE >290:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1426 text12 CODE >292:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-142C text12 CODE >293:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1238 text11 CODE >654:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1238 text11 CODE >656:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1248 text11 CODE >659:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-124C text11 CODE >661:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1250 text11 CODE >663:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1254 text11 CODE >665:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1256 text11 CODE >667:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1258 text11 CODE >671:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B2E text10 CODE >216:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B30 text10 CODE >217:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B32 text10 CODE >218:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B36 text10 CODE >220:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B44 text10 CODE >222:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B48 text10 CODE >223:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B4A text10 CODE >224:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B4C text10 CODE >225:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B50 text10 CODE >226:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B54 text10 CODE >227:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B58 text10 CODE >228:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B60 text10 CODE >229:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B62 text10 CODE >232:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B6A text10 CODE >233:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B72 text10 CODE >234:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B7A text10 CODE >235:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B82 text10 CODE >236:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B8A text10 CODE >237:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B92 text10 CODE >238:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-B9A text10 CODE >239:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BA2 text10 CODE >240:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BAA text10 CODE >241:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BB2 text10 CODE >243:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BB6 text10 CODE >244:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BBA text10 CODE >245:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BBE text10 CODE >247:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-BC0 text10 CODE >248:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1040 text9 CODE >120:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1042 text9 CODE >122:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1058 text9 CODE >123:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-106C text9 CODE >124:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1070 text9 CODE >125:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-1084 text9 CODE >126:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-141E text8 CODE >295:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-141E text8 CODE >297:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1424 text8 CODE >298:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12D4 text7 CODE >327:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12D4 text7 CODE >329:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12EA text7 CODE >330:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-EF8 text6 CODE >111:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-EFA text6 CODE >113:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-F10 text6 CODE >114:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-F24 text6 CODE >115:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-F38 text6 CODE >116:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-F3C text6 CODE >117:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-F50 text6 CODE >118:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
-116E text5 CODE >191:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-116E text5 CODE >192:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1170 text5 CODE >194:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1176 text5 CODE >196:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-117A text5 CODE >197:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-117C text5 CODE >198:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-117E text5 CODE >201:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1182 text5 CODE >203:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1186 text5 CODE >205:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-118A text5 CODE >207:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-118E text5 CODE >209:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1192 text5 CODE >211:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1194 text5 CODE >212:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-1196 text5 CODE >214:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
-12BC text4 CODE >58:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-12BC text4 CODE >61:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-12C2 text4 CODE >63:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-12C6 text4 CODE >65:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-12CA text4 CODE >67:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-12CE text4 CODE >69:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-12D2 text4 CODE >70:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-BC2 text3 CODE >55:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BC2 text3 CODE >60:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BC6 text3 CODE >61:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BCA text3 CODE >62:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BCE text3 CODE >67:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BD0 text3 CODE >68:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BD4 text3 CODE >69:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BD8 text3 CODE >77:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BDE text3 CODE >78:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BE2 text3 CODE >79:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BE6 text3 CODE >84:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BEA text3 CODE >85:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BEE text3 CODE >86:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BF2 text3 CODE >87:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BF6 text3 CODE >92:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BFA text3 CODE >93:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-BFE text3 CODE >94:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C02 text3 CODE >99:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C04 text3 CODE >100:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C06 text3 CODE >101:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C08 text3 CODE >106:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C0A text3 CODE >107:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C0C text3 CODE >108:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C0E text3 CODE >109:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C12 text3 CODE >113:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C1A text3 CODE >114:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C22 text3 CODE >115:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C2A text3 CODE >116:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C32 text3 CODE >118:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C36 text3 CODE >119:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C3A text3 CODE >120:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C3E text3 CODE >121:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-C42 text3 CODE >122:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
-1214 text2 CODE >72:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-1214 text2 CODE >75:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-121A text2 CODE >77:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-121E text2 CODE >79:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-1222 text2 CODE >81:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-1226 text2 CODE >83:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-122A text2 CODE >85:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-122E text2 CODE >87:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-1232 text2 CODE >89:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-1236 text2 CODE >90:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-139C text1 CODE >50:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-139C text1 CODE >52:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-13A0 text1 CODE >53:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-13A4 text1 CODE >54:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-13A8 text1 CODE >55:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-13AC text1 CODE >56:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
-954 text0 CODE >55:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-954 text0 CODE >58:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-958 text0 CODE >75:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-95A text0 CODE >76:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-972 text0 CODE >80:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-988 text0 CODE >81:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-998 text0 CODE >82:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-9AE text0 CODE >83:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-9C4 text0 CODE >84:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-9D4 text0 CODE >102:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-9D6 text0 CODE >104:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-9E8 text0 CODE >105:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-9EE text0 CODE >107:C:\Users\mrchu\Documentos\GitHub\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
-1086 cinit CODE >8593:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1086 cinit CODE >8595:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1086 cinit CODE >8598:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1086 cinit CODE >8630:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1088 cinit CODE >8631:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-108A cinit CODE >8632:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-108C cinit CODE >8633:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-108E cinit CODE >8634:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1090 cinit CODE >8635:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1092 cinit CODE >8636:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-1096 cinit CODE >8637:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-109A cinit CODE >8638:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-109A cinit CODE >8639:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-109C cinit CODE >8640:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10A2 cinit CODE >8641:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10A4 cinit CODE >8642:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10A6 cinit CODE >8643:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10A8 cinit CODE >8647:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10AC cinit CODE >8648:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10AE cinit CODE >8649:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10AE cinit CODE >8650:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10B0 cinit CODE >8651:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10B2 cinit CODE >8652:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10B4 cinit CODE >8658:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10B4 cinit CODE >8661:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10B6 cinit CODE >8662:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10B8 cinit CODE >8663:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
-10BA cinit CODE >8664:C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.s
+13F4 text69 CODE >827:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13F4 text69 CODE >829:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13FE text69 CODE >830:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13E8 text68 CODE >673:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13E8 text68 CODE >676:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13EC text68 CODE >678:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13F0 text68 CODE >680:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13F2 text68 CODE >681:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+129E text67 CODE >811:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+129E text67 CODE >813:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12A2 text67 CODE >814:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12A4 text67 CODE >815:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12A6 text67 CODE >816:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12A8 text67 CODE >817:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12AC text67 CODE >818:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12AE text67 CODE >819:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12B0 text67 CODE >820:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12B2 text67 CODE >821:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12B4 text67 CODE >822:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12B6 text67 CODE >823:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12B8 text67 CODE >824:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12BA text67 CODE >825:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11C2 text66 CODE >250:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11C2 text66 CODE >252:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11C6 text66 CODE >253:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11D4 text66 CODE >255:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11D6 text66 CODE >256:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11D8 text66 CODE >257:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11DC text66 CODE >258:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11E0 text66 CODE >259:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11E4 text66 CODE >260:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11E8 text66 CODE >262:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11EA text66 CODE >263:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1488 text65 CODE >783:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1488 text65 CODE >785:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+148C text65 CODE >786:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1482 text64 CODE >788:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1482 text64 CODE >790:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1486 text64 CODE >791:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+147C text63 CODE >778:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+147C text63 CODE >780:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1480 text63 CODE >781:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1372 text62 CODE >768:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1372 text62 CODE >770:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1386 text62 CODE >771:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+135C text61 CODE >773:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+135C text61 CODE >775:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1370 text61 CODE >776:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1346 text60 CODE >763:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1346 text60 CODE >765:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+135A text60 CODE >766:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F52 text59 CODE >378:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F52 text59 CODE >380:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F66 text59 CODE >382:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F6A text59 CODE >383:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F6E text59 CODE >384:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F82 text59 CODE >386:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F86 text59 CODE >387:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F88 text59 CODE >388:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+F8C text59 CODE >389:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FA0 text59 CODE >391:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FA4 text59 CODE >393:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1476 text58 CODE >719:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1476 text58 CODE >722:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+147A text58 CODE >723:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1470 text57 CODE >713:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1470 text57 CODE >716:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1474 text57 CODE >717:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1414 text56 CODE >698:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1416 text56 CODE >700:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+141C text56 CODE >701:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+127C text55 CODE >307:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+127C text55 CODE >309:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+128A text55 CODE >311:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1292 text55 CODE >312:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+129A text55 CODE >313:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+129C text55 CODE >315:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+C44 text54 CODE >342:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+C46 text54 CODE >344:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+C58 text54 CODE >346:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+C74 text54 CODE >347:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+C90 text54 CODE >348:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+C94 text54 CODE >351:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CAC text54 CODE >352:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CC4 text54 CODE >354:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12EC text53 CODE >317:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12EC text53 CODE >319:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1302 text53 CODE >320:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1142 text52 CODE >163:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1142 text52 CODE >165:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1156 text52 CODE >166:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+116A text52 CODE >167:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+116C text52 CODE >168:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1116 text51 CODE >142:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1116 text51 CODE >144:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+112A text51 CODE >145:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+113E text51 CODE >146:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1140 text51 CODE >147:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10EA text50 CODE >149:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10EA text50 CODE >151:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10FE text50 CODE >152:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1112 text50 CODE >153:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1114 text50 CODE >154:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10BE text49 CODE >156:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10BE text49 CODE >158:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10D2 text49 CODE >159:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10E6 text49 CODE >160:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+10E8 text49 CODE >161:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+FF4 text48 CODE >170:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+FF4 text48 CODE >172:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1028 text48 CODE >173:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+103C text48 CODE >174:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+103E text48 CODE >175:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+149A text47 CODE >631:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+149A text47 CODE >633:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+149C text47 CODE >634:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1496 text46 CODE >636:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1496 text46 CODE >638:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1498 text46 CODE >639:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+140A text45 CODE >688:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+140C text45 CODE >690:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1412 text45 CODE >691:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1400 text44 CODE >703:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1400 text44 CODE >706:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1404 text44 CODE >708:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1406 text44 CODE >710:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1408 text44 CODE >711:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+146A text43 CODE >683:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+146A text43 CODE >685:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+146E text43 CODE >686:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1330 text42 CODE >753:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1330 text42 CODE >755:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1344 text42 CODE >756:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1464 text41 CODE >736:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1464 text41 CODE >738:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1468 text41 CODE >739:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+145E text40 CODE >741:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+145E text40 CODE >743:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1462 text40 CODE >744:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1458 text39 CODE >725:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1458 text39 CODE >728:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+145C text39 CODE >729:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1452 text38 CODE >693:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1452 text38 CODE >695:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1456 text38 CODE >696:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+131A text37 CODE >731:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+131A text37 CODE >733:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+132E text37 CODE >734:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1304 text36 CODE >758:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1304 text36 CODE >760:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1318 text36 CODE >761:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+143E text35 CODE >559:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+143E text35 CODE >561:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1442 text35 CODE >562:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1444 text35 CODE >563:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+144C text34 CODE >395:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+144C text34 CODE >397:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+144E text34 CODE >399:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1450 text34 CODE >400:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1198 text33 CODE >402:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1198 text33 CODE >404:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11A0 text33 CODE >405:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11B2 text33 CODE >407:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11B6 text33 CODE >409:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11BE text33 CODE >410:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11C0 text33 CODE >411:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1388 text32 CODE >413:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1388 text32 CODE >415:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1390 text32 CODE >416:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1398 text32 CODE >417:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+139A text32 CODE >418:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+828 text31 CODE >420:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+828 text31 CODE >422:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+840 text31 CODE >427:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+848 text31 CODE >429:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+850 text31 CODE >433:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+854 text31 CODE >434:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+858 text31 CODE >435:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+85E text31 CODE >436:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+88C text31 CODE >436:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+89A text31 CODE >436:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8A2 text31 CODE >436:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8AA text31 CODE >436:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8B2 text31 CODE >436:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8BC text31 CODE >438:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8D0 text31 CODE >440:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8E4 text31 CODE >442:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+8FC text31 CODE >444:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+910 text31 CODE >445:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+944 text31 CODE >446:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+94A text31 CODE >447:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+950 text31 CODE >451:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+952 text31 CODE >453:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A96 text30 CODE >455:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A96 text30 CODE >457:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+AAA text30 CODE >459:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+AB0 text30 CODE >461:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+AC4 text30 CODE >463:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+ADC text30 CODE >464:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+ADC text30 CODE >466:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+AF4 text30 CODE >468:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B0E text30 CODE >473:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B14 text30 CODE >474:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B2A text30 CODE >475:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B2C text30 CODE >477:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CC6 text29 CODE >479:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CC6 text29 CODE >481:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CC8 text29 CODE >482:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CCC text29 CODE >485:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CD0 text29 CODE >486:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CD6 text29 CODE >489:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CDC text29 CODE >490:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CE2 text29 CODE >493:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CE6 text29 CODE >494:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+CEC text29 CODE >495:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D16 text29 CODE >495:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D24 text29 CODE >495:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D2C text29 CODE >495:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D34 text29 CODE >495:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D3E text29 CODE >496:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+9F8 text28 CODE >498:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+9F8 text28 CODE >500:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+9FA text28 CODE >501:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+9FE text28 CODE >504:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A02 text28 CODE >505:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A08 text28 CODE >507:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A0C text28 CODE >508:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A12 text28 CODE >511:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A18 text28 CODE >512:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A1E text28 CODE >515:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A30 text28 CODE >517:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A34 text28 CODE >519:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A3A text28 CODE >521:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A64 text28 CODE >521:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A72 text28 CODE >521:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A7A text28 CODE >521:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A82 text28 CODE >521:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A8A text28 CODE >521:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+A94 text28 CODE >522:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13AE text27 CODE >524:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13AE text27 CODE >526:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13B4 text27 CODE >527:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13B8 text27 CODE >528:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13BC text27 CODE >529:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1492 text26 CODE >531:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1492 text26 CODE >533:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1494 text26 CODE >534:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+148E text25 CODE >537:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+148E text25 CODE >539:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1490 text25 CODE >540:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11EC text24 CODE >542:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11EC text24 CODE >544:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+11F0 text24 CODE >545:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1204 text24 CODE >547:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+120A text24 CODE >548:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1210 text24 CODE >550:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1212 text24 CODE >551:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1436 text23 CODE >553:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1436 text23 CODE >555:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+143A text23 CODE >556:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+143C text23 CODE >557:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13DA text22 CODE >565:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13DA text22 CODE >567:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13DE text22 CODE >568:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13E2 text22 CODE >569:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13E6 text22 CODE >570:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+142E text21 CODE >572:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+142E text21 CODE >574:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1432 text21 CODE >575:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1434 text21 CODE >576:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13CC text20 CODE >578:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13CC text20 CODE >580:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13D0 text20 CODE >581:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13D2 text20 CODE >582:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13D6 text20 CODE >583:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13D8 text20 CODE >584:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DB4 text19 CODE >585:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DB4 text19 CODE >587:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DB8 text19 CODE >588:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DBC text19 CODE >589:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DBE text19 CODE >590:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DC2 text19 CODE >593:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DCA text19 CODE >595:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DD2 text19 CODE >597:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DD8 text19 CODE >598:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E06 text19 CODE >598:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E14 text19 CODE >598:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E1C text19 CODE >598:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E26 text19 CODE >599:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D40 text18 CODE >601:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D40 text18 CODE >604:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D44 text18 CODE >606:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D48 text18 CODE >607:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D4C text18 CODE >609:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D54 text18 CODE >611:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D5C text18 CODE >613:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D64 text18 CODE >614:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+D92 text18 CODE >614:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DA0 text18 CODE >614:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DA8 text18 CODE >614:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+DB2 text18 CODE >615:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13BE text17 CODE >617:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13BE text17 CODE >619:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13C2 text17 CODE >620:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13C4 text17 CODE >621:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13C8 text17 CODE >622:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+13CA text17 CODE >623:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E96 text16 CODE >367:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E96 text16 CODE >369:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E9A text16 CODE >371:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+EC2 text16 CODE >373:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+EC6 text16 CODE >375:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+EF6 text16 CODE >376:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E28 text15 CODE >832:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E28 text15 CODE >834:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E28 text15 CODE >836:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E3C text15 CODE >839:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E3C text15 CODE >840:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E4E text15 CODE >843:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E4E text15 CODE >844:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E62 text15 CODE >847:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E62 text15 CODE >848:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E74 text15 CODE >851:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E74 text15 CODE >852:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E86 text15 CODE >855:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E86 text15 CODE >856:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+E94 text15 CODE >860:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+125A text14 CODE >356:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+125A text14 CODE >358:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+125E text14 CODE >360:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1262 text14 CODE >361:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1264 text14 CODE >362:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1268 text14 CODE >363:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+126A text14 CODE >358:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1278 text14 CODE >365:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+127A text14 CODE >366:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FA6 text13 CODE >265:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FA8 text13 CODE >267:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FAC text13 CODE >268:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FBA text13 CODE >270:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FBC text13 CODE >271:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FC0 text13 CODE >272:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FC6 text13 CODE >274:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FD6 text13 CODE >276:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FDA text13 CODE >277:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FDE text13 CODE >278:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FE2 text13 CODE >281:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FE6 text13 CODE >282:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FEA text13 CODE >284:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FEC text13 CODE >285:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FF0 text13 CODE >287:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+FF2 text13 CODE >288:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1426 text12 CODE >290:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1426 text12 CODE >292:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+142C text12 CODE >293:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1238 text11 CODE >654:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1238 text11 CODE >656:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1248 text11 CODE >659:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+124C text11 CODE >661:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1250 text11 CODE >663:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1254 text11 CODE >665:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1256 text11 CODE >667:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1258 text11 CODE >671:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B2E text10 CODE >216:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B30 text10 CODE >217:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B32 text10 CODE >218:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B36 text10 CODE >220:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B44 text10 CODE >222:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B48 text10 CODE >223:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B4A text10 CODE >224:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B4C text10 CODE >225:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B50 text10 CODE >226:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B54 text10 CODE >227:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B58 text10 CODE >228:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B60 text10 CODE >229:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B62 text10 CODE >232:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B6A text10 CODE >233:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B72 text10 CODE >234:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B7A text10 CODE >235:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B82 text10 CODE >236:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B8A text10 CODE >237:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B92 text10 CODE >238:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+B9A text10 CODE >239:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BA2 text10 CODE >240:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BAA text10 CODE >241:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BB2 text10 CODE >243:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BB6 text10 CODE >244:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BBA text10 CODE >245:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BBE text10 CODE >247:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+BC0 text10 CODE >248:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1040 text9 CODE >120:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1042 text9 CODE >122:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1058 text9 CODE >123:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+106C text9 CODE >124:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1070 text9 CODE >125:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+1084 text9 CODE >126:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+141E text8 CODE >295:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+141E text8 CODE >297:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1424 text8 CODE >298:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12D4 text7 CODE >327:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12D4 text7 CODE >329:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12EA text7 CODE >330:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+EF8 text6 CODE >111:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+EFA text6 CODE >113:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+F10 text6 CODE >114:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+F24 text6 CODE >115:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+F38 text6 CODE >116:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+F3C text6 CODE >117:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+F50 text6 CODE >118:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/examples/i2c2_master_example.c
+116E text5 CODE >191:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+116E text5 CODE >192:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1170 text5 CODE >194:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1176 text5 CODE >196:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+117A text5 CODE >197:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+117C text5 CODE >198:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+117E text5 CODE >201:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1182 text5 CODE >203:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1186 text5 CODE >205:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+118A text5 CODE >207:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+118E text5 CODE >209:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1192 text5 CODE >211:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1194 text5 CODE >212:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+1196 text5 CODE >214:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/i2c2_master.c
+12BC text4 CODE >58:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+12BC text4 CODE >61:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+12C2 text4 CODE >63:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+12C6 text4 CODE >65:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+12CA text4 CODE >67:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+12CE text4 CODE >69:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+12D2 text4 CODE >70:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+BC2 text3 CODE >55:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BC2 text3 CODE >60:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BC6 text3 CODE >61:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BCA text3 CODE >62:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BCE text3 CODE >67:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BD0 text3 CODE >68:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BD4 text3 CODE >69:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BD8 text3 CODE >77:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BDE text3 CODE >78:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BE2 text3 CODE >79:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BE6 text3 CODE >84:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BEA text3 CODE >85:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BEE text3 CODE >86:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BF2 text3 CODE >87:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BF6 text3 CODE >92:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BFA text3 CODE >93:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+BFE text3 CODE >94:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C02 text3 CODE >99:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C04 text3 CODE >100:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C06 text3 CODE >101:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C08 text3 CODE >106:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C0A text3 CODE >107:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C0C text3 CODE >108:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C0E text3 CODE >109:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C12 text3 CODE >113:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C1A text3 CODE >114:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C22 text3 CODE >115:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C2A text3 CODE >116:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C32 text3 CODE >118:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C36 text3 CODE >119:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C3A text3 CODE >120:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C3E text3 CODE >121:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+C42 text3 CODE >122:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/pin_manager.c
+1214 text2 CODE >72:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+1214 text2 CODE >75:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+121A text2 CODE >77:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+121E text2 CODE >79:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+1222 text2 CODE >81:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+1226 text2 CODE >83:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+122A text2 CODE >85:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+122E text2 CODE >87:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+1232 text2 CODE >89:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+1236 text2 CODE >90:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+139C text1 CODE >50:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+139C text1 CODE >52:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+13A0 text1 CODE >53:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+13A4 text1 CODE >54:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+13A8 text1 CODE >55:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+13AC text1 CODE >56:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\mcc_generated_files/mcc.c
+954 text0 CODE >55:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+954 text0 CODE >58:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+958 text0 CODE >75:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+95A text0 CODE >76:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+972 text0 CODE >80:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+988 text0 CODE >81:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+998 text0 CODE >82:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+9AE text0 CODE >83:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+9C4 text0 CODE >84:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+9D4 text0 CODE >102:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+9D6 text0 CODE >104:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+9E8 text0 CODE >105:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+9EE text0 CODE >107:C:\Users\Pedro\Documents\PSR\pic18_MCC_i2c\XC8-MCC-18F25K83_i2c_test_Mysil.X\main.c
+1086 cinit CODE >8574:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1086 cinit CODE >8576:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1086 cinit CODE >8579:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1086 cinit CODE >8611:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1088 cinit CODE >8612:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+108A cinit CODE >8613:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+108C cinit CODE >8614:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+108E cinit CODE >8615:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1090 cinit CODE >8616:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1092 cinit CODE >8617:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+1096 cinit CODE >8618:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+109A cinit CODE >8619:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+109A cinit CODE >8620:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+109C cinit CODE >8621:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10A2 cinit CODE >8622:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10A4 cinit CODE >8623:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10A6 cinit CODE >8624:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10A8 cinit CODE >8628:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10AC cinit CODE >8629:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10AE cinit CODE >8630:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10AE cinit CODE >8631:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10B0 cinit CODE >8632:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10B2 cinit CODE >8633:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10B4 cinit CODE >8639:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10B4 cinit CODE >8642:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10B6 cinit CODE >8643:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10B8 cinit CODE >8644:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
+10BA cinit CODE >8645:C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -676,10 +676,12 @@ __Hspace_1 4D 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.
 __Hspace_2 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hspace_4 60000A 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterClearStopFlag 147C 0 CODE 0 text63 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterSendTxData 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_ReadNBytes@data 40 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterDisableIrq 129E 0 CODE 0 text67 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _I2C2_DO_SEND_RESTART_WRITE 1492 0 CODE 0 text26 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_SEND_ADR_WRITE 1388 0 CODE 0 text32 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetAddressNackCallback@cb 32 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -702,14 +704,16 @@ _WPUA 3A41 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.p
 _WPUB 3A51 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _WPUC 3A61 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _WPUE 3A81 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+___sp 0 0 STACK 2 stack C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _main 954 0 CODE 0 text0 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-start 7FFC 0 CODE 0 init C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+start 7FFC 0 CODE 0 init C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _I2C2_Close 11C2 0 CODE 0 text66 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_RX A96 0 CODE 0 text30 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_TX 828 0 CODE 0 text31 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetBuffer@bufferSize 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_ADDRESS_NACK E28 0 CODE 0 text19 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterSendAck 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_Initialize 1198 0 CODE 0 text5 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterIsStopFlagSet 135C 0 CODE 0 text60 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -719,13 +723,16 @@ __Hpowerup 0 0 CODE 0 powerup dist/default/production\XC8-MCC-18F25K83_i2c_test_
 __end_of_I2C2_DO_BUS_COLLISION DB4 0 CODE 0 text18 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_MasterSetCounter@counter 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetDataCompleteCallback@cb 32 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterIsTxBufEmpty 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 rd1RegCompleteHandler@ptr 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-intlevel0 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-intlevel1 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-intlevel2 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-intlevel3 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+__size_of_rd1RegCompleteHandler 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+intlevel0 0 0 CODE 0 text C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+intlevel1 0 0 CODE 0 text C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+intlevel2 0 0 CODE 0 text C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+intlevel3 0 0 CODE 0 text C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _I2C2_DO_RX_ACK 1436 0 CODE 0 text23 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterClose 13F4 0 CODE 0 text68 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -738,8 +745,11 @@ _i2c_memory_config 25 0 COMRAM 1 bssCOMRAM dist/default/production\XC8-MCC-18F25
 _wr2RegCompleteHandler 1142 0 CODE 0 text52 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetAddressNackCallback@ptr 34 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterClose 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_PMD_Initialize 1238 0 CODE 0 text2 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_BUS_COLLISION D40 0 CODE 0 text18 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterClearCountFlag 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterWrite 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterFsm E96 0 CODE 0 text16 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __pidataCOMRAM 1446 0 CODE 0 idataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -753,8 +763,8 @@ __end_of_I2C2_DO_RX B2E 0 CODE 0 text30 dist/default/production\XC8-MCC-18F25K83
 __end_of_I2C2_DO_TX 954 0 CODE 0 text31 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_RX_NACK_STOP 13DA 0 CODE 0 text22 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_Initialize 116E 0 CODE 0 text5 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _I2C2CON0 3D5D 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2CON1 3D5E 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2CON2 3D5F 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -767,8 +777,11 @@ __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_
 _I2C2_SetAddressNackCallback 12D4 0 CODE 0 text7 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterGetCounter 1458 0 CODE 0 text38 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_ReadNBytes@len 42 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterClearStopFlag 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterGetRxData 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_RX_ACK 143E 0 CODE 0 text23 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2IE 1CCBA 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _INLVLA 3A44 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -785,6 +798,7 @@ _I2C2_MasterIsRxBufFull 1330 0 CODE 0 text42 dist/default/production\XC8-MCC-18F
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterGetRxData 1470 0 CODE 0 text43 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_WriteNBytes@data 40 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_BUS_ERROR 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _RB2I2Cbits 3A5B 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _PIN_MANAGER_Initialize BC2 0 CODE 0 text3 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_SetCallback CC6 0 CODE 0 text54 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -798,17 +812,21 @@ _OSCFRQ 39DF 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_CallbackReturnStop 149E 0 CODE 0 text47 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_SEND_ADR_WRITE 139C 0 CODE 0 text32 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_SetCallback 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _RB1PPS 3A09 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _RB2PPS 3A0A 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 rdBlkRegCompleteHandler@ptr 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_SYSTEM_Initialize 13AE 0 CODE 0 text1 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_rd2RegCompleteHandler 1116 0 CODE 0 text50 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterIsNack 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterClearCountFlag 1488 0 CODE 0 text65 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _RB1I2Cbits 3A5A 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_SEND_RESTART_READ 13BE 0 CODE 0 text27 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+isa$xinst 0 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 __end_of_I2C2_DO_SEND_RESTART 1492 0 CODE 0 text25 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_Initialize 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _i2c_memory_index 27 0 COMRAM 1 bssCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _rd2RegCompleteHandler 10EA 0 CODE 0 text50 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -825,6 +843,7 @@ __Hidata 0 0 CODE 0 idata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysi
 __Hidloc 200010 0 IDLOC 5 idloc dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hparam 0 0 COMRAM 1 rparam dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hrdata 0 0 COMRAM 1 rdata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_wr1RegCompleteHandler 10EA 0 CODE 0 text49 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hstack 0 0 STACK 2 stack dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -842,9 +861,9 @@ _i2c_read_data 29 0 COMRAM 1 bssCOMRAM dist/default/production\XC8-MCC-18F25K83_
 __end_of_I2C2_MasterSetCounter 141E 0 CODE 0 text56 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _I2C2_CallbackReturnReset 1496 0 CODE 0 text46 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterSendNack 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterClearStopFlag 1482 0 CODE 0 text63 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterIsCountFlagSet 1388 0 CODE 0 text62 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_RX_EMPTY 9F8 0 CODE 0 text28 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -854,6 +873,7 @@ __end_of_I2C2_MasterStop 145E 0 CODE 0 text39 dist/default/production\XC8-MCC-18
 __Hcomram 0 0 ABS 0 comram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hconfig 30000A 0 CONFIG 4 config dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterWaitForEvent E28 0 CODE 0 text15 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterDisableIrq 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_SetBuffer 127C 0 CODE 0 text55 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -889,7 +909,6 @@ _wr1RegCompleteHandler 10BE 0 CODE 0 text49 dist/default/production\XC8-MCC-18F2
 _I2C2_MasterSetCounter 1414 0 CODE 0 text56 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__Hheap 0 0 HEAP 7 heap dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hinit 8000 0 CODE 0 init dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -897,38 +916,45 @@ __Htemp 0 0 COMRAM 1 temp dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysi
 __Htext 0 0 ABS 0 text dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Labs1 0 0 ABS 0 abs1 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Ldata 0 0 ABS 0 data dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__Lheap 0 0 HEAP 7 heap dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Linit 7FFC 0 CODE 0 init dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Ltext 0 0 ABS 0 text dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_SetDataCompleteCallback 12EC 0 CODE 0 text53 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2ERRbits 3D60 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_MasterOperation@returnValue 3F 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __S0 8000 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __S1 4D 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__S2 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_RX_NACK_RESTART 142E 0 CODE 0 text21 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_ADDRESS_NACK DB4 0 CODE 0 text19 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_Close 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_RX 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_TX 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_RX_NACK_RESTART 1436 0 CODE 0 text21 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_i2c2_fsmStateTable 827 0 SMALLCONST 0 smallconst dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterEnableRestart 1470 0 CODE 0 text57 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterSendNack 145E 0 CODE 0 text40 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_SEND_STOP 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_BUS_ERROR 13CC 0 CODE 0 text17 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2STAT1bits 3D62 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _SYSTEM_Initialize 139C 0 CODE 0 text1 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_ClearInterruptFlags F52 0 CODE 0 text59 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterOpen 1238 0 CODE 0 text11 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterRead 1426 0 CODE 0 text12 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterStop 1458 0 CODE 0 text39 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_WriteNBytes@address 44 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterResetBus 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_RESET 13CC 0 CODE 0 text20 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterDisableRestart 147C 0 CODE 0 text58 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterSendTxData 1414 0 CODE 0 text45 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -936,8 +962,10 @@ __end_of_I2C2_SetBuffer 129E 0 CODE 0 text55 dist/default/production\XC8-MCC-18F
 _I2C2_WriteNBytes EF8 0 CODE 0 text6 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_IDLE 144C 0 CODE 0 text34 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hramtop 800 0 RAM 0 ramtop dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_wr2RegCompleteHandler 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_BUS_COLLISION 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterClearNackFlag 1482 0 CODE 0 text64 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2CLK 3D65 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1010,7 +1038,9 @@ __Htext68 0 0 ABS 0 text68 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mys
 __Htext69 0 0 ABS 0 text69 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Htext70 0 0 ABS 0 text70 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 wr2RegCompleteHandler@ptr 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterIsCountFlagSet 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterIsRxBufFull 1346 0 CODE 0 text42 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterIsNack 1330 0 CODE 0 text37 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _i2c2_fsmStateTable 801 0 SMALLCONST 0 smallconst dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_RX_EMPTY A96 0 CODE 0 text28 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1080,8 +1110,8 @@ __ptext70 0 0 CODE 0 text70 dist/default/production\XC8-MCC-18F25K83_i2c_test_My
 __end_of_PIN_MANAGER_Initialize C44 0 CODE 0 text3 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterIsTxBufEmpty 1304 0 CODE 0 text36 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_RX_EMPTY 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterSendAck 146A 0 CODE 0 text41 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1089,46 +1119,66 @@ __end_of_I2C2_MasterIsTxBufEmpty 131A 0 CODE 0 text36 dist/default/production\XC
 _LATBbits 3FBB 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _LATCbits 3FBC 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_Open BC2 0 CODE 0 text10 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_Open 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_SEND_RESTART_WRITE 1496 0 CODE 0 text26 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterResetBus 1400 0 CODE 0 text44 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_IDLE 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_CallbackReturnReset 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+isa$std 1 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 __end_of_rd1RegCompleteHandler 1142 0 CODE 0 text51 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterIsStopFlagSet 1346 0 CODE 0 text60 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-stacklo 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+stackhi 7FF 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
+stacklo 60 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 __end_of_I2C2_ReadNBytes 1086 0 CODE 0 text9 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterClearIrq 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_RX_ACK 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_rdBlkRegCompleteHandler 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_Poller 127C 0 CODE 0 text14 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _OSCCON1 39D9 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _OSCCON3 39DB 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _OSCTUNE 39DE 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterGetCounter 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterIsNackFlagSet 135C 0 CODE 0 text61 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_Open B2E 0 CODE 0 text10 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2PIEbits 3D64 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_TX_ACK 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lspace_0 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lspace_4 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2PIRbits 3D63 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __pbssCOMRAM 1 0 COMRAM 1 bssCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterDisableRestart 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterSendAck 1464 0 CODE 0 text41 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_SetAddressNackCallback 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _rd1RegCompleteHandler 1116 0 CODE 0 text51 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_BUS_ERROR 13BE 0 CODE 0 text17 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterFsm 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_IDLE 1452 0 CODE 0 text34 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterGetRxData 146A 0 CODE 0 text43 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_RX_NACK_STOP 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 end_of_initialization 10B4 0 CODE 0 cinit dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterSendNack 1464 0 CODE 0 text40 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterOpen 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterRead 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterStop 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_WriteNBytes F52 0 CODE 0 text6 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_RESET 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterEnableRestart 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_Open@address 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_SEND_RESTART_READ 13AE 0 CODE 0 text27 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_WriteNBytes 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_SEND_STOP 1214 0 CODE 0 text24 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_Close@returnValue 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_DO_TX@dataTx 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_SetDataCompleteCallback 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lramtop 800 0 RAM 0 ramtop dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_SEND_ADR_READ 11C2 0 CODE 0 text33 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1145,6 +1195,7 @@ __ptext6 EF8 0 CODE 0 text6 dist/default/production\XC8-MCC-18F25K83_i2c_test_My
 __ptext7 12D4 0 CODE 0 text7 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __ptext8 141E 0 CODE 0 text8 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __ptext9 1040 0 CODE 0 text9 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_ClearInterruptFlags 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _i2c_send_data 47 0 COMRAM 1 dataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterIsNack 131A 0 CODE 0 text37 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1212,22 +1263,24 @@ __Ltext69 0 0 ABS 0 text69 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mys
 __Ltext70 0 0 ABS 0 text70 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_SetDataCompleteCallback 1304 0 CODE 0 text53 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterClearIrq 13F4 0 CODE 0 text69 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\Pedro\AppData\Local\Temp\xcAs7o4.o
 _I2C2_ReadNBytes 1040 0 CODE 0 text9 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterIsCountFlagSet 1372 0 CODE 0 text62 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 wr1RegCompleteHandler@ptr 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_CallbackReturnStop 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterClearNackFlag 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_SEND_RESTART 148E 0 CODE 0 text25 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterOperation 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_SEND_ADR_READ 1198 0 CODE 0 text33 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_DO_RESET 13DA 0 CODE 0 text20 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _SLRCONA 3A43 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _SLRCONB 3A53 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _SLRCONC 3A63 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
-___heap_lo 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAs8qg.o
 ___param_bank 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_CallbackReturnReset 149A 0 CODE 0 text46 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1237,12 +1290,16 @@ __end_of_I2C2_MasterResetBus 140A 0 CODE 0 text44 dist/default/production\XC8-MC
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterOperation FF4 0 CODE 0 text13 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_CallbackReturnReset@funPtr 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_wr1RegCompleteHandler 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetCallback@cb 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetDataCompleteCallback@ptr 34 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterSetCounter 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __pcstackCOMRAM 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_MasterOperation@read 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_main 9F8 0 CODE 0 text0 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterIsStopFlagSet 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 rd2RegCompleteHandler@ptr 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterIsRxBufFull 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_WriteNBytes@len 42 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _OSCEN 39DD 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _TRISA 3FC2 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1256,8 +1313,12 @@ __LRAM 1 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.pro
 __Lbss 0 0 RAM 1 bss dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterWaitForEvent 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterDisableRestart 1476 0 CODE 0 text58 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_MasterIsNackFlagSet 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterEnableRestart 1476 0 CODE 0 text57 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetCallback@idx 31 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_SetCallback@ptr 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_DO_SEND_STOP 11EC 0 CODE 0 text24 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1266,6 +1327,7 @@ __end_of_I2C2_ClearInterruptFlags FA6 0 CODE 0 text59 dist/default/production\XC
 __initialization 1086 0 CODE 0 cinit dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2SCLPPS 3AE5 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2SDAPPS 3AE6 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_Poller 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __pdataCOMRAM 47 0 COMRAM 1 dataCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterClose 13E8 0 CODE 0 text68 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _I2C2_MasterWrite 141E 0 CODE 0 text8 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
@@ -1273,9 +1335,12 @@ __Hfardata 0 0 FARRAM 0 fardata dist/default/production\XC8-MCC-18F25K83_i2c_tes
 __Hsmallconst 828 0 SMALLCONST 0 smallconst dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterDisableIrq 12BC 0 CODE 0 text67 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_ReadNBytes 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterClearIrq 1400 0 CODE 0 text69 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __end_of_I2C2_MasterClearNackFlag 1488 0 CODE 0 text64 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_DO_RX_NACK_RESTART 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
+__size_of_I2C2_SetBuffer 0 0 ABS 0 - dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 I2C2_DO_RX@retFsmState 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 _OSCILLATOR_Initialize 12BC 0 CODE 0 text4 dist/default/production\XC8-MCC-18F25K83_i2c_test_Mysil.X.production.o
 # %SPLITSTAB Section

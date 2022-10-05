@@ -95,7 +95,7 @@ void main(void)
         
         LED_GreenStatus_SetLow();
 //        if(i2c_memory_config[0] == 0x04)
-        if(i2c_read_data[0] == 0x04)
+        if(i2c_read_data[0] == 0x0A)
             LED_RedStatus_SetLow();
         else 
             LED_RedStatus_SetHigh();
